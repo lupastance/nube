@@ -79,6 +79,49 @@ Según el NIST (National Institute of Standards and Technology), el Cloud Comput
     Los proveedores utilizan centros de datos donde los recursos se comparten entre múltiples clientes, de manera aislada y segura.
     👉 Ejemplo: Dropbox aloja los archivos de millones de usuarios en sus servidores.
 
+
+## Ventajas generales de la nube
+
+El uso de la nube pública trae consigo múltiples beneficios:
+
+- **Flexibilidad**<br>adaptarse rápidamente a nuevas necesidades sin comprar equipos.
+- **Accesibilidad**<br>servicios disponibles desde cualquier lugar del mundo.
+- **Reducción de costes iniciales**<br>ya no hace falta invertir en servidores propios.
+- **Escalabilidad**<br>posibilidad de ampliar recursos en cuestión de segundos.
+- **Actualización constante**<br>el proveedor se encarga de mantener y actualizar los sistemas.
+
+!!!note "Ejemplo práctico"
+    una startup que desarrolla una aplicación móvil puede empezar usando servidores gratuitos de Google Cloud y, si su aplicación tiene éxito, escalar fácilmente a millones de usuarios.
+
+## Retos iniciales y barreras
+
+Aunque la nube es una solución poderosa, también presenta desafíos:
+
+🛟**Seguridad y confianza**
+    
+    almacenar datos en servidores de terceros puede generar dudas sobre la privacidad.
+
+🌐 **Dependencia de Internet**
+
+    sin conexión, no hay acceso al servicio.
+
+💵 **Control de costes**
+
+    el pago por uso puede ser un arma de doble filo si no se controla el consumo.
+
+🛜 **Dependencia del proveedor**
+
+    suna vez migrados los datos, no siempre es fácil cambiarlos de un proveedor a otro.
+
+!!!tip "Ejemplo"
+    una empresa que se pasa a AWS puede tener problemas si en el futuro quiere migrar a Azure, debido a la compatibilidad de servicios.
+
+
+
+
+
+
+
 ---
 
 ## 😾 Actividades
@@ -86,3 +129,13 @@ Según el NIST (National Institute of Standards and Technology), el Cloud Comput
 1. Haz una lista de las aplicaciones que usas a diario. Señala cuáles dependen de la nube y cuáles funcionan sin conexión. ¿Qué diferencias notas entre ambas?
 
 2. Imagina que montas una web de reservas de restaurantes. ¿Qué pasaría si la alojas en un servidor propio y de repente 10.000 personas entran a reservar al mismo tiempo? ¿Cómo lo solucionaría la nube?
+
+3. De la siguiente lista, indicad qué servicios funcionan gracias a la nube y cuáles dependen principalmente de instalación local:
+
+      - Gmail
+      - Netflix
+      - Dropbox
+      - WhatsApp
+      - Microsoft Word (a través de un instalador ejecutable)
+      - Steam
+      - Google Fotos
