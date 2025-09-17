@@ -55,3 +55,35 @@ Criterios para elegir entre **IaaS** /// **PaaS** /// **SaaS**
 - **Requisitos regulatorios**: si debes controlar físicamente la ubicación de datos, quizá nube privada o IaaS con control de región.
 - **Coste**: corto plazo PaaS o SaaS suelen ser más baratos. A largo plazo y a gran escala IaaS optimizado puede ser mejor
 - **Escalado impredecible**: PaaS/SaaS facilitan el autoscaling.
+
+!!!warning "Casos de uso de IaaS, PaaS y SaaS"
+
+=== "IaaS (Infrastructure as a Service)"
+
+        👉 Adecuado cuando necesitas el máximo control.
+
+        🔰 Ejemplo real: montar un servidor en Amazon EC2 para instalar un sistema operativo, configurar firewall, elegir la base de datos, etc.
+
+        🏢 Escenario típico en empresas: migración de servidores on-premise a la nube sin cambiar la forma en la que se trabaja.
+
+=== "PaaS (Platform as a Service)"
+
+        👉 Adecuado para empresas o equipos de desarrollo que quieren rapidez y no perder tiempo en infraestructura.
+
+        🔰 Ejemplo real: desplegar una aplicación en Heroku o Google App Engine.
+
+        🏢 Escenario típico: startups que quieren sacar una app al mercado en semanas sin contratar un SysAdmin.
+
+=== "SaaS (Software as a Service)"
+
+        👉 Adecuado para usuarios finales o empresas que no quieren preocuparse de nada técnico.
+
+        🔰 Ejemplo real: Gmail, Dropbox, Slack.
+
+        🏢 Escenario típico: una pyme que adopta Microsoft 365 en lugar de instalar servidores de correo y ofimática en local.
+
+| Modelo | Gestiona el usuario                  | Gestiona el proveedor             | Ejemplo |
+| ------ | ------------------------------------ | --------------------------------- | ------- |
+| IaaS   | SO, middleware, runtime, apps, datos | Hardware, red, virtualización     | AWS EC2 |
+| PaaS   | Apps, datos                          | SO, middleware, runtime, hardware | Heroku  |
+| SaaS   | Solo el uso de la aplicación         | Todo lo demás                     | Gmail   |

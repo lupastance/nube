@@ -47,6 +47,43 @@ Para que nos hagamo una idea, los tiempos de evolución de la informática en cu
 
     ☁️ La nube (años 2010 en adelante): los grandes proveedores comenzaron a ofrecer servicios masivos de infraestructura y aplicaciones accesibles desde cualquier lugar del mundo.
 
+## ¿Qué es el Cloud Computing?
+
+El Cloud Computing (computación en la nube) es un modelo tecnológico que permite ofrecer recursos informáticos —como servidores, almacenamiento, bases de datos, redes, software o inteligencia artificial— a través de Internet, de manera bajo demanda y generalmente con un modelo de pago por uso.
+
+En lugar de adquirir y mantener infraestructura física propia, las organizaciones pueden alquilar recursos en centros de datos gestionados por proveedores especializados. Esto democratiza la tecnología: empresas pequeñas pueden acceder a la misma potencia que las grandes multinacionales sin necesidad de inversiones millonarias.
+
+!!!warning "Ejemplos cotidianos"
+    🟢 WhatsApp no necesita que cada usuario monte un servidor: todo está en la nube.
+
+    🎬 Netflix aloja su plataforma en Amazon Web Services (AWS) para atender millones de usuarios simultáneamente.
+
+    📦 Google Drive permite guardar y sincronizar archivos sin necesidad de discos duros externos.
+
+
+## Evolución del modelo tradicional al Cloud Computing
+
+**Modelo tradicional (on-premise)**
+
+    Las empresas compraban servidores físicos y los alojaban en su propia sala de informática o CPD (Centro de Procesamiento de Datos).
+    
+    El coste inicial era muy alto (hardware, licencias, climatización, electricidad, personal de mantenimiento).
+    
+    Escalar era lento: si la demanda crecía, había que comprar más máquinas.
+    
+    Riesgo de infrautilización: servidores encendidos las 24h aunque se usaran poco.
+
+**Modelo cloud**
+
+    Los recursos se solicitan a través de Internet en cuestión de minutos.
+    
+    Escalabilidad casi ilimitada: se pueden añadir más servidores virtuales de forma automática.
+    
+    Pago ajustado al consumo: como una factura de luz o agua.
+    
+    El proveedor se encarga del mantenimiento físico, seguridad y disponibilidad.
+
+
 ## Características esenciales del Cloud Computing
 ![Intro](assets/1-tipos.png){align="center"}
 /// caption
@@ -78,6 +115,24 @@ Según el NIST (National Institute of Standards and Technology), el Cloud Comput
     
     Los proveedores utilizan centros de datos donde los recursos se comparten entre múltiples clientes, de manera aislada y segura.
     👉 Ejemplo: Dropbox aloja los archivos de millones de usuarios en sus servidores.
+
+## Tipos de nube
+
+**Nube pública**
+
+    infraestructura de un proveedor externo accesible por Internet. Ej: AWS, Azure, Google Cloud.
+
+**Nube privada**
+
+    infraestructura exclusiva para una organización, ya sea en sus instalaciones o en un proveedor dedicado.
+
+**Nube híbrida**
+    
+    combina nube privada y pública, compartiendo datos y aplicaciones.
+
+**Nube comunitaria**
+
+    compartida por varias organizaciones con intereses comunes (ej. universidades, administraciones públicas).
 
 
 ## Ventajas generales de la nube
@@ -117,7 +172,12 @@ Aunque la nube es una solución poderosa, también presenta desafíos:
     una empresa que se pasa a AWS puede tener problemas si en el futuro quiere migrar a Azure, debido a la compatibilidad de servicios.
 
 
+## Principales proveedores de nube pública
 
+- Amazon Web Services (AWS): pionero y líder en el mercado.
+- Microsoft Azure: integración con entornos empresariales y servicios Windows.
+- Google Cloud Platform (GCP): destaca en análisis de datos, Big Data y Kubernetes.
+- Otros: IBM Cloud, Oracle Cloud, DigitalOcean.
 
 
 
@@ -125,6 +185,8 @@ Aunque la nube es una solución poderosa, también presenta desafíos:
 ---
 
 ## 😾 Actividades
+
+<i class="tachado">
 
 1. Haz una lista de las aplicaciones que usas a diario. Señala cuáles dependen de la nube y cuáles funcionan sin conexión. ¿Qué diferencias notas entre ambas?
 
@@ -139,3 +201,10 @@ Aunque la nube es una solución poderosa, también presenta desafíos:
       - Microsoft Word (a través de un instalador ejecutable)
       - Steam
       - Google Fotos
+</i>
+
+4. Visita la web de AWS, Azure y GCP. Investiga acerca de las siguientes cuestiones:
+
+      - ¿Qué servicios gratuitos ofrecen en sus cuentas iniciales?
+      - ¿Cuánto tiempo dura el período gratuito?
+      - ¿Qué limitaciones tienen?

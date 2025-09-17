@@ -458,6 +458,67 @@
 <li><strong>Coste</strong>: corto plazo PaaS o SaaS suelen ser más baratos. A largo plazo y a gran escala IaaS optimizado puede ser mejor</li>
 <li><strong>Escalado impredecible</strong>: PaaS/SaaS facilitan el autoscaling.</li>
 </ul>
+<div class="admonition warning">
+<p class="admonition-title">Casos de uso de IaaS, PaaS y SaaS</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">IaaS (Infrastructure as a Service)</label><label for="__tabbed_1_2">PaaS (Platform as a Service)</label><label for="__tabbed_1_3">SaaS (Software as a Service)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="language-text highlight"><pre><span></span><code>👉 Adecuado cuando necesitas el máximo control.
+
+🔰 Ejemplo real: montar un servidor en Amazon EC2 para instalar un sistema operativo, configurar firewall, elegir la base de datos, etc.
+
+🏢 Escenario típico en empresas: migración de servidores on-premise a la nube sin cambiar la forma en la que se trabaja.
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-text highlight"><pre><span></span><code>👉 Adecuado para empresas o equipos de desarrollo que quieren rapidez y no perder tiempo en infraestructura.
+
+🔰 Ejemplo real: desplegar una aplicación en Heroku o Google App Engine.
+
+🏢 Escenario típico: startups que quieren sacar una app al mercado en semanas sin contratar un SysAdmin.
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-text highlight"><pre><span></span><code>👉 Adecuado para usuarios finales o empresas que no quieren preocuparse de nada técnico.
+
+🔰 Ejemplo real: Gmail, Dropbox, Slack.
+
+🏢 Escenario típico: una pyme que adopta Microsoft 365 en lugar de instalar servidores de correo y ofimática en local.
+</code></pre></div>
+</div>
+</div>
+</div>
+<table>
+<thead>
+<tr>
+<th>Modelo</th>
+<th>Gestiona el usuario</th>
+<th>Gestiona el proveedor</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IaaS</td>
+<td>SO, middleware, runtime, apps, datos</td>
+<td>Hardware, red, virtualización</td>
+<td>AWS EC2</td>
+</tr>
+<tr>
+<td>PaaS</td>
+<td>Apps, datos</td>
+<td>SO, middleware, runtime, hardware</td>
+<td>Heroku</td>
+</tr>
+<tr>
+<td>SaaS</td>
+<td>Solo el uso de la aplicación</td>
+<td>Todo lo demás</td>
+<td>Gmail</td>
+</tr>
+</tbody>
+</table>
 
 
 
