@@ -87,3 +87,13 @@ Criterios para elegir entre **IaaS** /// **PaaS** /// **SaaS**
 | IaaS   | SO, middleware, runtime, apps, datos | Hardware, red, virtualización     | AWS EC2 |
 | PaaS   | Apps, datos                          | SO, middleware, runtime, hardware | Heroku  |
 | SaaS   | Solo el uso de la aplicación         | Todo lo demás                     | Gmail   |
+
+
+
+!!!bug "Debate"
+    ¿Qué riesgos tiene depender únicamente de SaaS en una empresa?
+    ¿Creéis que a largo plazo es más barato pagar PaaS o mantener servidores IaaS optimizados?
+
+
+!!!warnig "Actividad"
+    Debéis investigar un servicio en la nube para cada versión del Cloud Computing y clasificarlo en IaaS, PaaS o SaaS, justificando su decisión y explicando cada uno cómo funciona
