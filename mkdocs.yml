@@ -1,5 +1,6 @@
 site_name: Nuble Pública
 site_url: https://lupastance.github.io/nube
+docs_dir: docs
 theme:
   language: es
   logo: assets/icon.png
@@ -24,8 +25,8 @@ theme:
     annotation: material/star-four-points-circle
 
   features:
-    - navigation.instant
-    - navigation.instant.progress
+    # - navigation.instant
+    # - navigation.instant.progress
     - search.suggest
     - search.highlight
     - header.autohide
