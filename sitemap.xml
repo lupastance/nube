@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://lupastance.github.io/nube/</loc>
-         <lastmod>2025-10-06</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://lupastance.github.io/nube/1%20-%20Fundamentos%20del%20Cloud%20Computing/</loc>
-         <lastmod>2025-10-06</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://lupastance.github.io/nube/2%20-%20Modelos%20de%20servicios%20en%20la%20nube/</loc>
-         <lastmod>2025-10-06</lastmod>
+         <lastmod>2025-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://lupastance.github.io/nube/3%20-%20Modelos%20de%20despliegue%20en%20la%20nube/</loc>
+         <lastmod>2025-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://lupastance.github.io/nube/4%20-%20Virtualizaci%C3%B3n%20y%20contenedores/</loc>
+         <lastmod>2025-10-20</lastmod>
     </url>
 </urlset>
