@@ -186,13 +186,11 @@ Aunque la nube es una solución poderosa, también presenta desafíos:
 
 ## 😾 Actividades
 
-<i class="tachado">
+1️⃣ Haz una lista de las aplicaciones que usas a diario. Señala cuáles dependen de la nube y cuáles funcionan sin conexión. ¿Qué diferencias notas entre ambas?
 
-1. Haz una lista de las aplicaciones que usas a diario. Señala cuáles dependen de la nube y cuáles funcionan sin conexión. ¿Qué diferencias notas entre ambas?
+2️⃣ Imagina que montas una web de reservas de restaurantes. ¿Qué pasaría si la alojas en un servidor propio y de repente 10.000 personas entran a reservar al mismo tiempo? ¿Cómo lo solucionaría la nube?
 
-2. Imagina que montas una web de reservas de restaurantes. ¿Qué pasaría si la alojas en un servidor propio y de repente 10.000 personas entran a reservar al mismo tiempo? ¿Cómo lo solucionaría la nube?
-
-3. De la siguiente lista, indicad qué servicios funcionan gracias a la nube y cuáles dependen principalmente de instalación local:
+3️⃣ De la siguiente lista, indicad qué servicios funcionan gracias a la nube y cuáles dependen principalmente de instalación local:
 
       - Gmail
       - Netflix
@@ -201,10 +199,300 @@ Aunque la nube es una solución poderosa, también presenta desafíos:
       - Microsoft Word (a través de un instalador ejecutable)
       - Steam
       - Google Fotos
-</i>
 
-4. Visita la web de AWS, Azure y GCP. Investiga acerca de las siguientes cuestiones:
+4️⃣ Visita la web de AWS, Azure y GCP. Investiga acerca de las siguientes cuestiones:
 
       - ¿Qué servicios gratuitos ofrecen en sus cuentas iniciales?
       - ¿Cuánto tiempo dura el período gratuito?
       - ¿Qué limitaciones tienen?
+
+
+5️⃣ ¿Cloud o servidor propio?
+
+Una pequeña empresa tiene estas necesidades:
+
+* Una página web corporativa con 500 visitas al día.
+* Una aplicación de reservas que puede recibir 20.000 visitas durante una campaña.
+* Una base de datos con información confidencial.
+* Un sistema de archivos utilizado únicamente por 10 empleados.
+* Una aplicación que debe estar disponible las 24 horas.
+
+Para cada caso:
+
+1. ¿Elegirías infraestructura propia, nube pública, nube privada o una solución híbrida?
+2. Justifica tu decisión.
+3. ¿Qué ventaja de la nube sería especialmente importante en cada caso?
+
+---
+
+6️⃣ La nube bajo presión ☁️🔥
+
+Imagina que eres responsable de infraestructura de una tienda online.
+
+Normalmente recibe **100 visitas simultáneas**, pero durante el Black Friday llegan **50.000**.
+
+El servidor actual solamente puede atender unas 500 conexiones simultáneas.
+
+Responde:
+
+1. ¿Qué problemas podrían aparecer?
+2. ¿Qué ocurriría si utilizáramos únicamente un servidor físico?
+3. ¿Cómo podría ayudarnos la escalabilidad de la nube?
+4. ¿Qué podría ocurrir cuando terminara el Black Friday?
+5. ¿Qué característica del Cloud Computing estamos aprovechando?
+
+**Objetivo:** entender la elasticidad sin necesidad de configurar todavía ningún servicio real.
+
+---
+
+7️⃣ ¿Cuánto pagarías por tu propio Netflix? 🎬
+
+Imagina que quieres crear una plataforma de vídeo para tu instituto.
+
+Necesitas:
+
+* almacenar 5 TB de vídeos;
+* servir vídeos a 1.000 alumnos;
+* disponer de la plataforma 24 horas;
+* realizar copias de seguridad;
+* aumentar la capacidad durante los exámenes.
+
+Compara dos soluciones:
+
+**A. Servidor propio**
+
+* compra del servidor;
+* discos;
+* conexión a Internet;
+* electricidad;
+* mantenimiento;
+* copias de seguridad.
+
+**B. Nube pública**
+
+Investiga qué servicios de AWS, Azure o GCP podrían utilizarse.
+
+Después responde:
+
+> ¿Qué solución elegirías y por qué?
+
+No es necesario calcular un precio exacto. Lo importante es identificar **qué recursos habría que pagar en cada modelo**.
+
+---
+
+8️⃣ ¿Quién tiene realmente tus datos? 🔐
+
+Elige **tres servicios** que utilices habitualmente, por ejemplo Google Drive, Instagram, WhatsApp, OneDrive, Spotify, etc.
+
+Para cada uno, investiga:
+
+* ¿Dónde se almacenan los datos?
+* ¿Quién proporciona la infraestructura?
+* ¿Qué ocurre con tus datos si pierdes la contraseña?
+* ¿Puedes descargar tus datos?
+* ¿Puedes utilizar el servicio sin conexión?
+* ¿Qué ocurre si la empresa deja de ofrecer el servicio?
+
+Finalmente, responde:
+
+> ¿Qué ventajas y riesgos tiene almacenar nuestros datos en la nube?
+
+Esta puede dar bastante juego para debatir en clase.
+
+---
+
+9️⃣ El reto de los tres proveedores 🏆
+
+Divide la clase en grupos.
+
+Cada grupo recibe una empresa ficticia:
+
+> **SurfApp** es una startup que acaba de crear una aplicación para reservar clases de surf. Espera comenzar con 1.000 usuarios, pero podría llegar a 1 millón.
+
+Cada grupo debe elegir entre **AWS, Azure y Google Cloud**.
+
+Deben investigar:
+
+* servicios disponibles;
+* almacenamiento;
+* máquinas virtuales;
+* bases de datos;
+* herramientas de escalabilidad;
+* servicios gratuitos;
+* precios aproximados;
+* ventajas y desventajas.
+
+---
+
+1️⃣0️⃣ ¿Qué modelo de nube es? 🕵️
+
+Indica si cada situación corresponde principalmente a **nube pública, privada, híbrida o comunitaria**.
+
+**A.** Una universidad comparte una infraestructura cloud entre varias universidades para proyectos de investigación.
+
+**B.** Un banco mantiene determinados datos en sus propios servidores, pero utiliza AWS para alojar su página web.
+
+**C.** Una empresa utiliza exclusivamente infraestructura cloud a la que acceden sus empleados.
+
+**D.** Un hospital dispone de una infraestructura cloud utilizada exclusivamente por la organización.
+
+**E.** Varias administraciones públicas comparten una infraestructura diseñada específicamente para ellas.
+
+Después, inventa **una situación diferente para cada tipo de nube**.
+
+---
+
+1️⃣1️⃣ El apagón mundial ⚡
+
+Imagina que mañana durante **6 horas no funciona Internet**.
+
+¿Qué cosas dejarían de funcionar o tendrían problemas?
+
+Haz una lista de **10 servicios** que utilizas habitualmente y clasifícalos:
+
+| Servicio | ¿Funciona sin Internet? | ¿Depende de la nube? |
+| -------- | ----------------------- | -------------------- |
+| Spotify  | ❌/✅                     | ❌/✅                  |
+| ...      |                         |                      |
+
+Después responde:
+
+> ¿La nube hace que dependamos más de Internet?
+
+---
+
+1️⃣2️⃣ Detectives del Cloud 🔎
+
+Busca información sobre una aplicación o servicio que utilices habitualmente.
+
+Por ejemplo:
+
+* Spotify
+* Netflix
+* TikTok
+* Discord
+* Steam
+* Google Drive
+* Instagram
+* Roblox
+* WhatsApp
+
+Averigua **qué infraestructura cloud utiliza**, si es posible.
+
+El trabajo debe incluir:
+
+1. Nombre del servicio.
+2. Para qué utiliza la nube.
+3. Qué proveedor o proveedores utiliza.
+4. Qué ocurriría si aumentase repentinamente el número de usuarios.
+5. Una curiosidad sobre su infraestructura.
+
+**Bonus:** encontrar una noticia o artículo técnico que hable de su infraestructura.
+
+---
+
+1️⃣3️⃣ Diseña tu propia nube ☁️
+
+Imagina que eres el responsable de informática de un instituto.
+
+El centro necesita:
+
+* almacenamiento para profesores;
+* almacenamiento para alumnos;
+* correo electrónico;
+* página web;
+* copias de seguridad;
+* aulas virtuales;
+* videoconferencias;
+* acceso desde casa.
+
+Diseña una solución indicando:
+
+* qué servicios estarían en la nube;
+* cuáles podrían mantenerse localmente;
+* qué datos deberían protegerse especialmente;
+* qué proveedor elegirías;
+* qué ventajas tendría tu solución;
+* qué riesgos tendría.
+
+Puedes representarlo mediante un **diagrama**.
+
+---
+
+1️⃣4️⃣ La batalla de la nube ⚔️
+
+Dividir la clase en tres grupos:
+
+* 🟠 **AWS**
+* 🔵 **Azure**
+* 🔴 **Google Cloud**
+
+Cada grupo tiene que defender su plataforma frente a las otras dos.
+
+Deben preparar:
+
+* 3 ventajas;
+* 2 inconvenientes;
+* 3 servicios interesantes;
+* un ejemplo de empresa que la utilice;
+* una razón para elegirla frente a las otras.
+
+Después se hace un pequeño debate.
+
+**Regla:** no vale decir simplemente "es mejor". Hay que justificarlo.
+
+---
+
+1️⃣5️⃣ ¿Verdadero o falso? 🚨
+
+Indica si las siguientes afirmaciones son verdaderas o falsas y **justifica las falsas**:
+
+1. La nube significa que los datos están almacenados en Internet.
+2. Utilizar la nube significa no tener servidores físicos.
+3. AWS, Azure y Google Cloud son proveedores de nube pública.
+4. La nube siempre es más barata que tener servidores propios.
+5. Una aplicación cloud puede aumentar sus recursos cuando aumenta la demanda.
+6. La nube elimina todos los problemas de seguridad.
+7. Para utilizar cualquier servicio cloud necesitamos conexión a Internet.
+8. Una empresa puede utilizar simultáneamente varios proveedores cloud.
+9. Cloud Computing y almacenamiento en la nube significan exactamente lo mismo.
+10. Una máquina virtual puede ejecutarse sobre un servidor físico.
+
+---
+
+1️⃣6️⃣ 🧑‍💼 Eres el responsable de IT
+
+> **Una empresa te contrata como responsable de informática.**
+
+La empresa tiene 30 empleados y actualmente dispone de:
+
+* 2 servidores físicos;
+* 1 servidor de archivos;
+* 1 servidor web;
+* 1 servidor de bases de datos;
+* 10 TB de almacenamiento;
+* copias de seguridad en discos externos.
+
+Los servidores tienen 6 años y empiezan a quedarse obsoletos.
+
+La dirección te pregunta:
+
+> **"¿Compramos servidores nuevos o migramos a la nube?"**
+
+Debes preparar una propuesta de **una página** para la dirección.
+
+Debe incluir:
+
+* situación actual;
+* ventajas de mantener infraestructura propia;
+* ventajas de migrar a la nube;
+* inconvenientes de cada opción;
+* solución que propones;
+* proveedor que elegirías;
+* qué servicios migrarías;
+* qué mantendrías localmente;
+* conclusión final.
+
+**No hay una única respuesta correcta.** Se valorará especialmente la capacidad de justificar las decisiones.
+
+---
