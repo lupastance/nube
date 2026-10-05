@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.6">
     
     
       
@@ -714,36 +714,271 @@ El proveedor se encarga del mantenimiento físico, seguridad y disponibilidad.
 </ul>
 <hr />
 <h2 id="actividades">😾 Actividades</h2>
-<p><i class="tachado"></p>
+<p>1️⃣ Haz una lista de las aplicaciones que usas a diario. Señala cuáles dependen de la nube y cuáles funcionan sin conexión. ¿Qué diferencias notas entre ambas?</p>
+<p>2️⃣ Imagina que montas una web de reservas de restaurantes. ¿Qué pasaría si la alojas en un servidor propio y de repente 10.000 personas entran a reservar al mismo tiempo? ¿Cómo lo solucionaría la nube?</p>
+<p>3️⃣ De la siguiente lista, indicad qué servicios funcionan gracias a la nube y cuáles dependen principalmente de instalación local:</p>
+<div class="language-text highlight"><pre><span></span><code>  - Gmail
+  - Netflix
+  - Dropbox
+  - WhatsApp
+  - Microsoft Word (a través de un instalador ejecutable)
+  - Steam
+  - Google Fotos
+</code></pre></div>
+<p>4️⃣ Visita la web de AWS, Azure y GCP. Investiga acerca de las siguientes cuestiones:</p>
+<div class="language-text highlight"><pre><span></span><code>  - ¿Qué servicios gratuitos ofrecen en sus cuentas iniciales?
+  - ¿Cuánto tiempo dura el período gratuito?
+  - ¿Qué limitaciones tienen?
+</code></pre></div>
+<p>5️⃣ ¿Cloud o servidor propio?</p>
+<p>Una pequeña empresa tiene estas necesidades:</p>
+<ul>
+<li>Una página web corporativa con 500 visitas al día.</li>
+<li>Una aplicación de reservas que puede recibir 20.000 visitas durante una campaña.</li>
+<li>Una base de datos con información confidencial.</li>
+<li>Un sistema de archivos utilizado únicamente por 10 empleados.</li>
+<li>Una aplicación que debe estar disponible las 24 horas.</li>
+</ul>
+<p>Para cada caso:</p>
 <ol>
-<li>
-<p>Haz una lista de las aplicaciones que usas a diario. Señala cuáles dependen de la nube y cuáles funcionan sin conexión. ¿Qué diferencias notas entre ambas?</p>
-</li>
-<li>
-<p>Imagina que montas una web de reservas de restaurantes. ¿Qué pasaría si la alojas en un servidor propio y de repente 10.000 personas entran a reservar al mismo tiempo? ¿Cómo lo solucionaría la nube?</p>
-</li>
-<li>
-<p>De la siguiente lista, indicad qué servicios funcionan gracias a la nube y cuáles dependen principalmente de instalación local:</p>
-<ul>
-<li>Gmail</li>
-<li>Netflix</li>
-<li>Dropbox</li>
-<li>WhatsApp</li>
-<li>Microsoft Word (a través de un instalador ejecutable)</li>
-<li>Steam</li>
-<li>Google Fotos
-</i></li>
-</ul>
-</li>
-<li>
-<p>Visita la web de AWS, Azure y GCP. Investiga acerca de las siguientes cuestiones:</p>
-<ul>
-<li>¿Qué servicios gratuitos ofrecen en sus cuentas iniciales?</li>
-<li>¿Cuánto tiempo dura el período gratuito?</li>
-<li>¿Qué limitaciones tienen?</li>
-</ul>
-</li>
+<li>¿Elegirías infraestructura propia, nube pública, nube privada o una solución híbrida?</li>
+<li>Justifica tu decisión.</li>
+<li>¿Qué ventaja de la nube sería especialmente importante en cada caso?</li>
 </ol>
+<hr />
+<p>6️⃣ La nube bajo presión ☁️🔥</p>
+<p>Imagina que eres responsable de infraestructura de una tienda online.</p>
+<p>Normalmente recibe <strong>100 visitas simultáneas</strong>, pero durante el Black Friday llegan <strong>50.000</strong>.</p>
+<p>El servidor actual solamente puede atender unas 500 conexiones simultáneas.</p>
+<p>Responde:</p>
+<ol>
+<li>¿Qué problemas podrían aparecer?</li>
+<li>¿Qué ocurriría si utilizáramos únicamente un servidor físico?</li>
+<li>¿Cómo podría ayudarnos la escalabilidad de la nube?</li>
+<li>¿Qué podría ocurrir cuando terminara el Black Friday?</li>
+<li>¿Qué característica del Cloud Computing estamos aprovechando?</li>
+</ol>
+<p><strong>Objetivo:</strong> entender la elasticidad sin necesidad de configurar todavía ningún servicio real.</p>
+<hr />
+<p>7️⃣ ¿Cuánto pagarías por tu propio Netflix? 🎬</p>
+<p>Imagina que quieres crear una plataforma de vídeo para tu instituto.</p>
+<p>Necesitas:</p>
+<ul>
+<li>almacenar 5 TB de vídeos;</li>
+<li>servir vídeos a 1.000 alumnos;</li>
+<li>disponer de la plataforma 24 horas;</li>
+<li>realizar copias de seguridad;</li>
+<li>aumentar la capacidad durante los exámenes.</li>
+</ul>
+<p>Compara dos soluciones:</p>
+<p><strong>A. Servidor propio</strong></p>
+<ul>
+<li>compra del servidor;</li>
+<li>discos;</li>
+<li>conexión a Internet;</li>
+<li>electricidad;</li>
+<li>mantenimiento;</li>
+<li>copias de seguridad.</li>
+</ul>
+<p><strong>B. Nube pública</strong></p>
+<p>Investiga qué servicios de AWS, Azure o GCP podrían utilizarse.</p>
+<p>Después responde:</p>
+<blockquote>
+<p>¿Qué solución elegirías y por qué?</p>
+</blockquote>
+<p>No es necesario calcular un precio exacto. Lo importante es identificar <strong>qué recursos habría que pagar en cada modelo</strong>.</p>
+<hr />
+<p>8️⃣ ¿Quién tiene realmente tus datos? 🔐</p>
+<p>Elige <strong>tres servicios</strong> que utilices habitualmente, por ejemplo Google Drive, Instagram, WhatsApp, OneDrive, Spotify, etc.</p>
+<p>Para cada uno, investiga:</p>
+<ul>
+<li>¿Dónde se almacenan los datos?</li>
+<li>¿Quién proporciona la infraestructura?</li>
+<li>¿Qué ocurre con tus datos si pierdes la contraseña?</li>
+<li>¿Puedes descargar tus datos?</li>
+<li>¿Puedes utilizar el servicio sin conexión?</li>
+<li>¿Qué ocurre si la empresa deja de ofrecer el servicio?</li>
+</ul>
+<p>Finalmente, responde:</p>
+<blockquote>
+<p>¿Qué ventajas y riesgos tiene almacenar nuestros datos en la nube?</p>
+</blockquote>
+<p>Esta puede dar bastante juego para debatir en clase.</p>
+<hr />
+<p>9️⃣ El reto de los tres proveedores 🏆</p>
+<p>Divide la clase en grupos.</p>
+<p>Cada grupo recibe una empresa ficticia:</p>
+<blockquote>
+<p><strong>SurfApp</strong> es una startup que acaba de crear una aplicación para reservar clases de surf. Espera comenzar con 1.000 usuarios, pero podría llegar a 1 millón.</p>
+</blockquote>
+<p>Cada grupo debe elegir entre <strong>AWS, Azure y Google Cloud</strong>.</p>
+<p>Deben investigar:</p>
+<ul>
+<li>servicios disponibles;</li>
+<li>almacenamiento;</li>
+<li>máquinas virtuales;</li>
+<li>bases de datos;</li>
+<li>herramientas de escalabilidad;</li>
+<li>servicios gratuitos;</li>
+<li>precios aproximados;</li>
+<li>ventajas y desventajas.</li>
+</ul>
+<hr />
+<p>1️⃣0️⃣ ¿Qué modelo de nube es? 🕵️</p>
+<p>Indica si cada situación corresponde principalmente a <strong>nube pública, privada, híbrida o comunitaria</strong>.</p>
+<p><strong>A.</strong> Una universidad comparte una infraestructura cloud entre varias universidades para proyectos de investigación.</p>
+<p><strong>B.</strong> Un banco mantiene determinados datos en sus propios servidores, pero utiliza AWS para alojar su página web.</p>
+<p><strong>C.</strong> Una empresa utiliza exclusivamente infraestructura cloud a la que acceden sus empleados.</p>
+<p><strong>D.</strong> Un hospital dispone de una infraestructura cloud utilizada exclusivamente por la organización.</p>
+<p><strong>E.</strong> Varias administraciones públicas comparten una infraestructura diseñada específicamente para ellas.</p>
+<p>Después, inventa <strong>una situación diferente para cada tipo de nube</strong>.</p>
+<hr />
+<p>1️⃣1️⃣ El apagón mundial ⚡</p>
+<p>Imagina que mañana durante <strong>6 horas no funciona Internet</strong>.</p>
+<p>¿Qué cosas dejarían de funcionar o tendrían problemas?</p>
+<p>Haz una lista de <strong>10 servicios</strong> que utilizas habitualmente y clasifícalos:</p>
+<table>
+<thead>
+<tr>
+<th>Servicio</th>
+<th>¿Funciona sin Internet?</th>
+<th>¿Depende de la nube?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spotify</td>
+<td>❌/✅</td>
+<td>❌/✅</td>
+</tr>
+<tr>
+<td>...</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Después responde:</p>
+<blockquote>
+<p>¿La nube hace que dependamos más de Internet?</p>
+</blockquote>
+<hr />
+<p>1️⃣2️⃣ Detectives del Cloud 🔎</p>
+<p>Busca información sobre una aplicación o servicio que utilices habitualmente.</p>
+<p>Por ejemplo:</p>
+<ul>
+<li>Spotify</li>
+<li>Netflix</li>
+<li>TikTok</li>
+<li>Discord</li>
+<li>Steam</li>
+<li>Google Drive</li>
+<li>Instagram</li>
+<li>Roblox</li>
+<li>WhatsApp</li>
+</ul>
+<p>Averigua <strong>qué infraestructura cloud utiliza</strong>, si es posible.</p>
+<p>El trabajo debe incluir:</p>
+<ol>
+<li>Nombre del servicio.</li>
+<li>Para qué utiliza la nube.</li>
+<li>Qué proveedor o proveedores utiliza.</li>
+<li>Qué ocurriría si aumentase repentinamente el número de usuarios.</li>
+<li>Una curiosidad sobre su infraestructura.</li>
+</ol>
+<p><strong>Bonus:</strong> encontrar una noticia o artículo técnico que hable de su infraestructura.</p>
+<hr />
+<p>1️⃣3️⃣ Diseña tu propia nube ☁️</p>
+<p>Imagina que eres el responsable de informática de un instituto.</p>
+<p>El centro necesita:</p>
+<ul>
+<li>almacenamiento para profesores;</li>
+<li>almacenamiento para alumnos;</li>
+<li>correo electrónico;</li>
+<li>página web;</li>
+<li>copias de seguridad;</li>
+<li>aulas virtuales;</li>
+<li>videoconferencias;</li>
+<li>acceso desde casa.</li>
+</ul>
+<p>Diseña una solución indicando:</p>
+<ul>
+<li>qué servicios estarían en la nube;</li>
+<li>cuáles podrían mantenerse localmente;</li>
+<li>qué datos deberían protegerse especialmente;</li>
+<li>qué proveedor elegirías;</li>
+<li>qué ventajas tendría tu solución;</li>
+<li>qué riesgos tendría.</li>
+</ul>
+<p>Puedes representarlo mediante un <strong>diagrama</strong>.</p>
+<hr />
+<p>1️⃣4️⃣ La batalla de la nube ⚔️</p>
+<p>Dividir la clase en tres grupos:</p>
+<ul>
+<li>🟠 <strong>AWS</strong></li>
+<li>🔵 <strong>Azure</strong></li>
+<li>🔴 <strong>Google Cloud</strong></li>
+</ul>
+<p>Cada grupo tiene que defender su plataforma frente a las otras dos.</p>
+<p>Deben preparar:</p>
+<ul>
+<li>3 ventajas;</li>
+<li>2 inconvenientes;</li>
+<li>3 servicios interesantes;</li>
+<li>un ejemplo de empresa que la utilice;</li>
+<li>una razón para elegirla frente a las otras.</li>
+</ul>
+<p>Después se hace un pequeño debate.</p>
+<p><strong>Regla:</strong> no vale decir simplemente "es mejor". Hay que justificarlo.</p>
+<hr />
+<p>1️⃣5️⃣ ¿Verdadero o falso? 🚨</p>
+<p>Indica si las siguientes afirmaciones son verdaderas o falsas y <strong>justifica las falsas</strong>:</p>
+<ol>
+<li>La nube significa que los datos están almacenados en Internet.</li>
+<li>Utilizar la nube significa no tener servidores físicos.</li>
+<li>AWS, Azure y Google Cloud son proveedores de nube pública.</li>
+<li>La nube siempre es más barata que tener servidores propios.</li>
+<li>Una aplicación cloud puede aumentar sus recursos cuando aumenta la demanda.</li>
+<li>La nube elimina todos los problemas de seguridad.</li>
+<li>Para utilizar cualquier servicio cloud necesitamos conexión a Internet.</li>
+<li>Una empresa puede utilizar simultáneamente varios proveedores cloud.</li>
+<li>Cloud Computing y almacenamiento en la nube significan exactamente lo mismo.</li>
+<li>Una máquina virtual puede ejecutarse sobre un servidor físico.</li>
+</ol>
+<hr />
+<p>1️⃣6️⃣ 🧑‍💼 Eres el responsable de IT</p>
+<blockquote>
+<p><strong>Una empresa te contrata como responsable de informática.</strong></p>
+</blockquote>
+<p>La empresa tiene 30 empleados y actualmente dispone de:</p>
+<ul>
+<li>2 servidores físicos;</li>
+<li>1 servidor de archivos;</li>
+<li>1 servidor web;</li>
+<li>1 servidor de bases de datos;</li>
+<li>10 TB de almacenamiento;</li>
+<li>copias de seguridad en discos externos.</li>
+</ul>
+<p>Los servidores tienen 6 años y empiezan a quedarse obsoletos.</p>
+<p>La dirección te pregunta:</p>
+<blockquote>
+<p><strong>"¿Compramos servidores nuevos o migramos a la nube?"</strong></p>
+</blockquote>
+<p>Debes preparar una propuesta de <strong>una página</strong> para la dirección.</p>
+<p>Debe incluir:</p>
+<ul>
+<li>situación actual;</li>
+<li>ventajas de mantener infraestructura propia;</li>
+<li>ventajas de migrar a la nube;</li>
+<li>inconvenientes de cada opción;</li>
+<li>solución que propones;</li>
+<li>proveedor que elegirías;</li>
+<li>qué servicios migrarías;</li>
+<li>qué mantendrías localmente;</li>
+<li>conclusión final.</li>
+</ul>
+<p><strong>No hay una única respuesta correcta.</strong> Se valorará especialmente la capacidad de justificar las decisiones.</p>
+<hr />
 
 
 
