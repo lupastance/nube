@@ -874,19 +874,6 @@ Prepara una breve memoria técnica con:
 
 La memoria puede presentarse como documento Markdown, informe o exposición breve, según las indicaciones del profesor.
 
-### Criterios de evaluación propuestos
-
-| Criterio | Ponderación |
-|---|---:|
-| Identificación correcta de las necesidades | 15 % |
-| Selección y justificación de los modelos | 25 % |
-| Comprensión de las responsabilidades | 20 % |
-| Análisis de seguridad y riesgos | 20 % |
-| Comparación de costes y limitaciones | 10 % |
-| Claridad y calidad de la presentación | 10 % |
-
----
-
 ## 2.11. Resumen del tema
 
 Los modelos IaaS, PaaS y SaaS representan diferentes maneras de consumir recursos y capacidades informáticas a través de la nube.
@@ -901,8 +888,9 @@ El modelo de responsabilidad compartida nos recuerda que contratar un servicio c
 
 Por último, los contenedores y las tecnologías serverless permiten construir y desplegar aplicaciones de formas diferentes, pero no deben confundirse con los modelos clásicos de servicio.
 
-**La idea fundamental que debemos recordar es que no elegimos un modelo únicamente por su tecnología o por su precio: lo elegimos porque distribuye el control, el trabajo y las responsabilidades de una forma adecuada para las necesidades del proyecto.**
-
+!!!tip
+    La idea fundamental que debemos recordar es que no elegimos un modelo únicamente por su tecnología o por su precio: lo elegimos porque distribuye el control, el trabajo y las responsabilidades de una forma adecuada para las necesidades del proyecto.**
+<!-- 
 ## Preguntas de repaso
 
 1. ¿Qué diferencia fundamental existe entre IaaS, PaaS y SaaS?
@@ -914,6 +902,6 @@ Por último, los contenedores y las tecnologías serverless permiten construir y
 7. ¿Por qué Docker no es, por sí mismo, un modelo de servicio cloud?
 8. ¿Qué significa serverless y por qué no implica que no existan servidores?
 9. ¿Qué riesgos puede tener una dependencia excesiva de un proveedor SaaS?
-10. Una empresa necesita controlar el sistema operativo de una aplicación, desarrollar una API y contratar correo electrónico. ¿Qué modelos elegirías para cada necesidad y por qué?
+10. Una empresa necesita controlar el sistema operativo de una aplicación, desarrollar una API y contratar correo electrónico. ¿Qué modelos elegirías para cada necesidad y por qué? -->
 
 ---
