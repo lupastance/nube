@@ -17,8 +17,11 @@
         <link rel="next" href="../3%20-%20Modelos%20de%20despliegue%20en%20la%20nube/">
       
       
+        
+      
+      
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.6.22">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.6">
     
     
       
@@ -26,10 +29,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -60,7 +63,6 @@
     
       
 
-    
     
     
   </head>
@@ -271,9 +273,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     🏡 Bienvenid@s
+  
+
     
   </span>
+  
   
 
       </a>
@@ -293,9 +300,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     1️⃣ Fundamentos del Cloud Computing y la nube pública
+  
+
     
   </span>
+  
   
 
       </a>
@@ -324,9 +336,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     2️⃣ Modelos de servicios en la nube
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -337,9 +354,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     2️⃣ Modelos de servicios en la nube
+  
+
     
   </span>
+  
   
 
       </a>
@@ -360,19 +382,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#definiciones-y-vision-general-del-cloud-computing" class="md-nav__link">
+  <a href="#objetivos-del-tema" class="md-nav__link">
     <span class="md-ellipsis">
-      Definiciones y visión general del ☁️ Cloud Computing
+      
+        Objetivos del tema
+      
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Definiciones y visión general del ☁️ Cloud Computing">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-que-es-un-modelo-de-servicio-en-la-nube" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. ¿Qué es un modelo de servicio en la nube?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. ¿Qué es un modelo de servicio en la nube?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#cual-elegir" class="md-nav__link">
+  <a href="#211-la-idea-de-las-capas-tecnologicas" class="md-nav__link">
     <span class="md-ellipsis">
-      ¿Cuál elegir?
+      
+        2.1.1. La idea de las capas tecnológicas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-no-debemos-confundir-servicio-con-tecnologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1.2. No debemos confundir servicio con tecnología
+      
     </span>
   </a>
   
@@ -380,6 +428,776 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-iaas-infrastructure-as-a-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. IaaS: Infrastructure as a Service
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.2. IaaS: Infrastructure as a Service">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#221-que-recursos-proporciona-iaas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.1. ¿Qué recursos proporciona IaaS?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#222-que-administra-el-cliente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.2. ¿Qué administra el cliente?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#223-que-administra-el-proveedor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.3. ¿Qué administra el proveedor?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#224-ejemplo-real-amazon-ec2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.4. Ejemplo real: Amazon EC2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#225-ventajas-de-iaas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.5. Ventajas de IaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#226-inconvenientes-de-iaas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.6. Inconvenientes de IaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#227-cuando-elegir-iaas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2.7. ¿Cuándo elegir IaaS?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23-paas-platform-as-a-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. PaaS: Platform as a Service
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3. PaaS: Platform as a Service">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-que-proporciona-una-plataforma-paas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.1. ¿Qué proporciona una plataforma PaaS?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#232-que-es-el-runtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.2. ¿Qué es el runtime?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#233-como-funciona-un-despliegue-paas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.3. ¿Cómo funciona un despliegue PaaS?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#234-ejemplos-de-servicios-paas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.4. Ejemplos de servicios PaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#235-ventajas-de-paas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.5. Ventajas de PaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#236-inconvenientes-de-paas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.6. Inconvenientes de PaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#237-cuando-elegir-paas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.7. ¿Cuándo elegir PaaS?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#238-github-pages-es-paas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3.8. ¿GitHub Pages es PaaS?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24-saas-software-as-a-service" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4. SaaS: Software as a Service
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.4. SaaS: Software as a Service">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#241-que-administra-el-proveedor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.1. ¿Qué administra el proveedor?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#242-que-administra-el-cliente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.2. ¿Qué administra el cliente?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#243-ejemplos-de-saas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.3. Ejemplos de SaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#244-ventajas-de-saas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.4. Ventajas de SaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#245-inconvenientes-de-saas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.5. Inconvenientes de SaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#246-cuando-elegir-saas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4.6. ¿Cuándo elegir SaaS?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#25-modelo-de-responsabilidad-compartida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5. Modelo de responsabilidad compartida
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.5. Modelo de responsabilidad compartida">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#251-comparacion-entre-iaas-paas-y-saas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.1. Comparación entre IaaS, PaaS y SaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#252-ejemplos-de-incidentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.2. Ejemplos de incidentes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#253-la-seguridad-no-desaparece-al-subir-a-la-nube" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5.3. La seguridad no desaparece al subir a la nube
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#26-como-elegir-entre-iaas-paas-y-saas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6. ¿Cómo elegir entre IaaS, PaaS y SaaS?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.6. ¿Cómo elegir entre IaaS, PaaS y SaaS?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#261-criterios-de-decision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6.1. Criterios de decisión
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#262-tabla-comparativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6.2. Tabla comparativa
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#263-el-coste-total-de-propiedad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6.3. El coste total de propiedad
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#27-tecnologias-relacionadas-contenedores-y-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7. Tecnologías relacionadas: contenedores y serverless
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.7. Tecnologías relacionadas: contenedores y serverless">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#271-contenedores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7.1. Contenedores
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.7.1. Contenedores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conceptos-fundamentales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conceptos fundamentales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo de uso
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacion-con-iaas-y-paas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relación con IaaS y PaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#272-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7.2. Serverless
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.7.2. Serverless">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-procesar-una-imagen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo: procesar una imagen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-real-aws-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ejemplo real: AWS Lambda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ventajas-de-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ventajas de serverless
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inconvenientes-de-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inconvenientes de serverless
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#28-casos-practicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.8. Casos prácticos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.8. Casos prácticos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caso-1-una-empresa-necesita-migrar-un-servidor-antiguo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 1. Una empresa necesita migrar un servidor antiguo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-2-un-equipo-quiere-publicar-una-api-rest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 2. Un equipo quiere publicar una API REST
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-3-un-centro-necesita-correo-electronico-corporativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 3. Un centro necesita correo electrónico corporativo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caso-4-una-empresa-necesita-procesar-archivos-automaticamente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caso 4. Una empresa necesita procesar archivos automáticamente
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#29-actividades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.9. Actividades
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.9. Actividades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#actividad-1-clasificacion-de-servicios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 1. Clasificación de servicios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actividad-2-responsabilidades-y-seguridad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 2. Responsabilidades y seguridad
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actividad-3-eleccion-del-modelo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 3. Elección del modelo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actividad-4-comparacion-economica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 4. Comparación económica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actividad-5-debate-dependencia-de-saas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividad 5. Debate: dependencia de SaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#210-practica-integradora-disenar-una-solucion-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.10. Práctica integradora: diseñar una solución cloud
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.10. Práctica integradora: diseñar una solución cloud">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#escenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escenario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-a-analisis-de-necesidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte A. Análisis de necesidades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-b-seleccion-de-servicios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte B. Selección de servicios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-c-responsabilidad-compartida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte C. Responsabilidad compartida
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-d-seguridad-y-riesgos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte D. Seguridad y riesgos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-e-conclusiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte E. Conclusiones
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-evaluacion-propuestos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterios de evaluación propuestos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#211-resumen-del-tema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.11. Resumen del tema
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preguntas-de-repaso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preguntas de repaso
+      
+    </span>
+  </a>
   
 </li>
       
@@ -403,9 +1221,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     3️⃣ Modelos de despliegue en la Nube
+  
+
     
   </span>
+  
   
 
       </a>
@@ -425,9 +1248,14 @@
   
   
   <span class="md-ellipsis">
+    
+  
     4️⃣ Virtualización y Contenedores
+  
+
     
   </span>
+  
   
 
       </a>
@@ -445,6 +1273,7 @@
           
           
             <div class="md-content" data-md-component="content">
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -456,124 +1285,879 @@
 
 <h1 id="2-modelos-de-servicios-en-la-nube">2️⃣ Modelos de servicios en la nube</h1>
 <p><img align="right" alt="Cloud" src="../assets/2-intro.png" /></p>
-<p>Vamos a desmenuzar los modelos de servicio en la nube: qué son, en qué se diferencian, responsabilidades, usos típicos, problemas habituales y prácticas de aula con soluciones.</p>
-<p>Este tema es central para que entendamos qué nivel de control y de responsabilidad tiene según la elección del servicio y por qué una organización escogería uno u otro.</p>
-<div class="admonition tip">
-<p class="admonition-title">Objetivos del tema</p>
-</div>
+<p>En el tema anterior hemos estudiado los fundamentos de la computación en la nube y las ventajas que ofrece frente a una infraestructura tradicional. Ahora vamos a profundizar en una de las decisiones más importantes cuando una organización utiliza servicios cloud: <strong>¿qué parte de la infraestructura queremos administrar nosotros y qué parte queremos delegar en el proveedor?</strong></p>
+<p>No todas las empresas necesitan administrar servidores, instalar sistemas operativos o configurar redes. Algunas necesitan controlar hasta el último detalle de su infraestructura, mientras que otras prefieren concentrarse exclusivamente en desarrollar aplicaciones o utilizar un programa ya existente.</p>
+<p>Para responder a estas necesidades existen diferentes modelos de servicio. Los tres modelos clásicos son:</p>
 <ul>
-<li>Definir y diferenciar IaaS, PaaS y SaaS con claridad.</li>
-<li>Comprender qué gestiona el proveedor y qué gestiona el cliente en cada modelo.</li>
-<li>Identificar casos de uso, ventajas e inconvenientes prácticos.</li>
-<li>Conocer servicios y tecnologías relacionadas (contenedores, serverless).</li>
-<li>Realizar prácticas guiadas: desplegar una VM (IaaS), desplegar una app en PaaS y usar/administrar un SaaS.</li>
+<li><strong>IaaS (Infrastructure as a Service):</strong> Infraestructura como Servicio.</li>
+<li><strong>PaaS (Platform as a Service):</strong> Plataforma como Servicio.</li>
+<li><strong>SaaS (Software as a Service):</strong> Software como Servicio.</li>
+</ul>
+<p>Cada modelo ofrece un nivel diferente de control, flexibilidad y responsabilidad. Comprender estas diferencias nos permitirá seleccionar la solución más adecuada para cada proyecto.</p>
+<h2 id="objetivos-del-tema">Objetivos del tema</h2>
+<p>Al finalizar esta unidad, deberás ser capaz de:</p>
+<ul>
+<li>Definir y diferenciar los modelos IaaS, PaaS y SaaS.</li>
+<li>Identificar qué componentes administra el proveedor y cuáles corresponden al cliente.</li>
+<li>Reconocer servicios reales de cada modelo.</li>
+<li>Analizar las ventajas, limitaciones y casos de uso de cada alternativa.</li>
+<li>Comprender el modelo de responsabilidad compartida y su relación con la seguridad.</li>
+<li>Comparar soluciones cloud teniendo en cuenta el control, el mantenimiento, los costes y la dependencia del proveedor.</li>
+<li>Comprender cómo se relacionan los contenedores y las tecnologías serverless con los modelos de servicio.</li>
+<li>Justificar técnicamente la elección de un modelo de servicio para una necesidad empresarial.</li>
 </ul>
 <hr />
-<h2 id="definiciones-y-vision-general-del-cloud-computing">Definiciones y visión general del ☁️ Cloud Computing</h2>
-<p>Actualmente disponemos de 3 modelos diferentes a la hora de gestionar un proyecto en la nube. Entre las opciones disponibles tenemos las siguientes:</p>
-<p><strong>IaaS</strong><br>Infrastructure as a Service (Infraestructura como Servicio).</p>
-<div class="language-text highlight"><pre><span></span><code>- El proveedor ofrece infraestructura virtualizada 👉 máquinas virtuales, redes virtuales, almacenamiento en bloque/objeto, balanceadores, direcciones IP.
-
-- El cliente controla OS, middleware, runtimes, aplicaciones y datos. El proveedor controla hardware físico, virtualización, y parte de la red física.
-
-- Casos típicos 👉 migración de servidores on-premise, entornos de pruebas, clusters de cálculo, hosts para bases de datos o aplicaciones que requieren control detallado.
-</code></pre></div>
-<p><strong>PaaS</strong><br>Platform as a Service (Plataforma como Servicio)</p>
-<div class="language-text highlight"><pre><span></span><code>- El proveedor facilita una plataforma completa para desarrollar, ejecutar y escalar aplicaciones sin gestionar la infraestructura subyacente. Incluye runtime, servicios gestionados (bases de datos, colas), escalado automático.
-
-- El cliente se centra en código y datos ❌ no gestiona OS ni la capa de runtime subyacente 👇
-
-- Casos típicos 👉 equipos de desarrollo que quieren enfocarse en el producto sin administrar servidores (APIs, apps web, microservicios simples).
-</code></pre></div>
-<div class="admonition warning">
-<p class="admonition-title">¿Qué es la capa de runtime subyacente?</p>
-<p>La capa de runtime es el entorno de ejecución que permite que una aplicación funcione: incluye el sistema operativo, los intérpretes de lenguajes de programación, las librerías necesarias, las máquinas virtuales (como la JVM para Java o el CLR para .NET), frameworks y gestores de dependencias.</p>
-</div>
-<p><strong>SaaS</strong><br>Software as a Service (Software como servicio)</p>
-<div class="language-text highlight"><pre><span></span><code>- 🟢 Ventajas: cero operaciones, uso inmediato, actualizaciones por parte del proveedor, coste predecible por usuario.
-
-- 🔴 Inconvenientes: poca personalización, dependencia del proveedor, cuestiones de privacidad y compliance.
-</code></pre></div>
-<h3 id="cual-elegir">¿Cuál elegir?</h3>
-<p>Criterios para elegir entre <strong>IaaS</strong> /// <strong>PaaS</strong> /// <strong>SaaS</strong></p>
-<ul>
-<li><strong>Necesidad de control</strong>: si necesitas kernel tweak, drivers o configuraciones especiales 👉 IaaS.</li>
-<li><strong>Velocidad de desarrollo / time to market</strong>: PaaS o SaaS.</li>
-<li><strong>Personal disponible</strong>: si no hay personal de SysAdmin 👉 PaaS o SaaS.</li>
-<li><strong>Requisitos regulatorios</strong>: si debes controlar físicamente la ubicación de datos, quizá nube privada o IaaS con control de región.</li>
-<li><strong>Coste</strong>: corto plazo PaaS o SaaS suelen ser más baratos. A largo plazo y a gran escala IaaS optimizado puede ser mejor</li>
-<li><strong>Escalado impredecible</strong>: PaaS/SaaS facilitan el autoscaling.</li>
-</ul>
-<div class="admonition warning">
-<p class="admonition-title">Casos de uso de IaaS, PaaS y SaaS</p>
-</div>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">IaaS (Infrastructure as a Service)</label><label for="__tabbed_1_2">PaaS (Platform as a Service)</label><label for="__tabbed_1_3">SaaS (Software as a Service)</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code>👉 Adecuado cuando necesitas el máximo control.
-
-🔰 Ejemplo real: montar un servidor en Amazon EC2 para instalar un sistema operativo, configurar firewall, elegir la base de datos, etc.
-
-🏢 Escenario típico en empresas: migración de servidores on-premise a la nube sin cambiar la forma en la que se trabaja.
-</code></pre></div>
-</div>
-<div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code>👉 Adecuado para empresas o equipos de desarrollo que quieren rapidez y no perder tiempo en infraestructura.
-
-🔰 Ejemplo real: desplegar una aplicación en Heroku o Google App Engine.
-
-🏢 Escenario típico: startups que quieren sacar una app al mercado en semanas sin contratar un SysAdmin.
-</code></pre></div>
-</div>
-<div class="tabbed-block">
-<div class="language-text highlight"><pre><span></span><code>👉 Adecuado para usuarios finales o empresas que no quieren preocuparse de nada técnico.
-
-🔰 Ejemplo real: Gmail, Dropbox, Slack.
-
-🏢 Escenario típico: una pyme que adopta Microsoft 365 en lugar de instalar servidores de correo y ofimática en local.
-</code></pre></div>
-</div>
-</div>
-</div>
+<h2 id="21-que-es-un-modelo-de-servicio-en-la-nube">2.1. ¿Qué es un modelo de servicio en la nube?</h2>
+<p>Un modelo de servicio describe <strong>qué recursos o capacidades proporciona el proveedor cloud y qué responsabilidades conserva el cliente</strong>.</p>
+<p>Para comprenderlo, imaginemos que una empresa necesita poner en funcionamiento una aplicación web para gestionar sus pedidos.</p>
+<p>Tiene varias posibilidades:</p>
+<ol>
+<li>Alquilar una máquina virtual, instalar un sistema operativo y configurar todos los componentes necesarios.</li>
+<li>Utilizar una plataforma que permita publicar la aplicación sin administrar directamente el servidor.</li>
+<li>Contratar una aplicación de gestión de pedidos que ya esté desarrollada y lista para utilizarse.</li>
+</ol>
+<p>Las tres opciones pueden cubrir una necesidad empresarial parecida, pero el trabajo que debe realizar la empresa es muy diferente.</p>
 <table>
 <thead>
 <tr>
 <th>Modelo</th>
-<th>Gestiona el usuario</th>
-<th>Gestiona el proveedor</th>
-<th>Ejemplo</th>
+<th>¿Qué contrata el cliente?</th>
+<th>¿En qué se centra?</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>IaaS</td>
-<td>SO, middleware, runtime, apps, datos</td>
-<td>Hardware, red, virtualización</td>
-<td>AWS EC2</td>
+<td>Recursos de infraestructura virtualizados</td>
+<td>Administrar sistemas y aplicaciones</td>
 </tr>
 <tr>
 <td>PaaS</td>
-<td>Apps, datos</td>
-<td>SO, middleware, runtime, hardware</td>
-<td>Heroku</td>
+<td>Una plataforma para desarrollar y ejecutar aplicaciones</td>
+<td>Desarrollar, configurar y mantener la aplicación</td>
 </tr>
 <tr>
 <td>SaaS</td>
-<td>Solo el uso de la aplicación</td>
-<td>Todo lo demás</td>
+<td>Una aplicación terminada</td>
+<td>Utilizar y administrar el servicio</td>
+</tr>
+</tbody>
+</table>
+<h3 id="211-la-idea-de-las-capas-tecnologicas">2.1.1. La idea de las capas tecnológicas</h3>
+<p>Una aplicación informática depende de diferentes componentes. Aunque normalmente solo vemos la interfaz de usuario, por debajo existe una infraestructura completa.</p>
+<p>Podemos representar las capas de una aplicación web de la siguiente forma:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>┌──────────────────────────────────┐
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>│          Aplicación web          │
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├──────────────────────────────────┤
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│       Código y dependencias      │
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>├──────────────────────────────────┤
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│      Runtime y middleware        │
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>├──────────────────────────────────┤
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│        Sistema operativo         │
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>├──────────────────────────────────┤
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│     Virtualización y redes       │
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>├──────────────────────────────────┤
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│      Hardware e instalaciones    │
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>└──────────────────────────────────┘
+</span></code></pre></div>
+<p>Por ejemplo, una aplicación desarrollada con Node.js necesita código JavaScript, dependencias, un entorno de ejecución, recursos de memoria y CPU, comunicaciones de red y una infraestructura sobre la que funcionar.</p>
+<p>En una solución IaaS, el cliente administra muchas de estas capas. En una solución PaaS, el proveedor se ocupa de más componentes. En SaaS, el proveedor entrega directamente la aplicación terminada.</p>
+<p><strong>Cuanto más alto es el nivel de abstracción del servicio, menos infraestructura necesita administrar directamente el cliente.</strong> Esto no significa que desaparezcan todas sus responsabilidades: la gestión de usuarios, los permisos, los datos y el uso correcto del servicio siguen siendo importantes.</p>
+<h3 id="212-no-debemos-confundir-servicio-con-tecnologia">2.1.2. No debemos confundir servicio con tecnología</h3>
+<p>IaaS, PaaS y SaaS son modelos de servicio, no marcas comerciales ni tecnologías concretas.</p>
+<p>Por ejemplo:</p>
+<ul>
+<li>Amazon EC2 es un servicio de máquinas virtuales que encaja en el modelo IaaS.</li>
+<li>Azure App Service es una plataforma gestionada para desplegar aplicaciones web, generalmente asociada a PaaS.</li>
+<li>Gmail es un ejemplo de SaaS.</li>
+</ul>
+<p>Una misma empresa cloud puede ofrecer servicios de diferentes modelos. Por eso, no debemos clasificar a AWS, Azure o Google Cloud como si fueran exclusivamente IaaS, PaaS o SaaS.</p>
+<hr />
+<h2 id="22-iaas-infrastructure-as-a-service">2.2. IaaS: Infrastructure as a Service</h2>
+<p><strong>IaaS significa Infraestructura como Servicio.</strong> El proveedor ofrece recursos informáticos virtualizados que el cliente puede utilizar para construir su propia infraestructura.</p>
+<p>En lugar de comprar un servidor físico, instalarlo en una sala y mantenerlo, una organización puede contratar una máquina virtual en la nube y utilizarla como si fuera un servidor propio.</p>
+<p>El proveedor mantiene la infraestructura física y la capa de virtualización. El cliente conserva un elevado grado de control sobre el sistema operativo, las aplicaciones y la configuración del entorno.</p>
+<h3 id="221-que-recursos-proporciona-iaas">2.2.1. ¿Qué recursos proporciona IaaS?</h3>
+<p>Los servicios IaaS pueden ofrecer distintos tipos de recursos:</p>
+<ul>
+<li><strong>Computación:</strong> máquinas virtuales con CPU y memoria asignadas.</li>
+<li><strong>Almacenamiento:</strong> discos virtuales, almacenamiento de objetos y otros recursos persistentes.</li>
+<li><strong>Redes virtuales:</strong> redes privadas, subredes, rutas y reglas de comunicación.</li>
+<li><strong>Direcciones IP:</strong> direcciones públicas o privadas según el servicio.</li>
+<li><strong>Seguridad de red:</strong> reglas de filtrado, grupos de seguridad y cortafuegos gestionados.</li>
+<li><strong>Balanceo de carga:</strong> distribución del tráfico entre diferentes servidores.</li>
+<li><strong>Copias de seguridad e imágenes:</strong> herramientas para recuperar o reproducir sistemas.</li>
+</ul>
+<p>No todos estos componentes tienen que contratarse conjuntamente. Una de las ventajas de la nube es que podemos construir una infraestructura adaptada a nuestras necesidades.</p>
+<h3 id="222-que-administra-el-cliente">2.2.2. ¿Qué administra el cliente?</h3>
+<p>Cuando contratamos una máquina virtual IaaS, normalmente somos responsables de instalar, configurar y mantener el sistema operativo invitado y los componentes que ejecutamos en él.</p>
+<p>Entre las tareas habituales se encuentran:</p>
+<ul>
+<li>Instalar y actualizar Linux o Windows Server.</li>
+<li>Crear usuarios y configurar permisos.</li>
+<li>Instalar servidores web como Apache o Nginx.</li>
+<li>Instalar runtimes como Node.js, PHP o Java.</li>
+<li>Configurar bases de datos autoadministradas.</li>
+<li>Gestionar los servicios que se ejecutan en la máquina.</li>
+<li>Configurar el cortafuegos del sistema operativo.</li>
+<li>Aplicar actualizaciones de seguridad.</li>
+<li>Monitorizar el consumo de recursos.</li>
+<li>Realizar y comprobar copias de seguridad.</li>
+<li>Proteger las credenciales y las claves de acceso.</li>
+</ul>
+<p>El proveedor puede ofrecer herramientas para automatizar muchas de estas tareas, pero la responsabilidad de administrarlas sigue correspondiendo al cliente cuando forman parte de su entorno.</p>
+<h3 id="223-que-administra-el-proveedor">2.2.3. ¿Qué administra el proveedor?</h3>
+<p>El proveedor se ocupa de las capas físicas y de la infraestructura que permite ofrecer los recursos virtualizados.</p>
+<p>Por ejemplo:</p>
+<ul>
+<li>Los edificios, instalaciones y centros de datos.</li>
+<li>Los servidores físicos y sus componentes.</li>
+<li>La alimentación eléctrica y la refrigeración.</li>
+<li>La infraestructura de red física.</li>
+<li>La capa de virtualización.</li>
+<li>El mantenimiento del hardware y de la infraestructura subyacente.</li>
+</ul>
+<p>El reparto exacto depende del servicio contratado. El proveedor también puede ofrecer servicios adicionales de monitorización, copias de seguridad o administración, pero no debemos asumir que están incluidos automáticamente en una máquina virtual básica.</p>
+<h3 id="224-ejemplo-real-amazon-ec2">2.2.4. Ejemplo real: Amazon EC2</h3>
+<p><a href="https://aws.amazon.com/ec2/">Amazon EC2</a> es un servicio de AWS que permite ejecutar instancias de computación en la nube.</p>
+<p>Imaginemos que queremos publicar una aplicación web en una máquina virtual Linux.</p>
+<p>El proceso general sería:</p>
+<ol>
+<li>Elegir una región y una zona de disponibilidad.</li>
+<li>Seleccionar una imagen de sistema operativo.</li>
+<li>Elegir el tipo de instancia según las necesidades de CPU y memoria.</li>
+<li>Configurar el almacenamiento.</li>
+<li>Establecer las reglas de acceso a la red.</li>
+<li>Iniciar la máquina virtual.</li>
+<li>Instalar y configurar el software necesario.</li>
+<li>Publicar la aplicación y comprobar su funcionamiento.</li>
+<li>Mantener el sistema actualizado y supervisar sus recursos.</li>
+</ol>
+<p>El proveedor administra la infraestructura física y la virtualización. Nosotros debemos configurar correctamente el sistema operativo y la aplicación.</p>
+<p>Por ejemplo, si dejamos un servicio administrativo accesible desde Internet sin las restricciones adecuadas, no podemos asumir que AWS lo protegerá automáticamente.</p>
+<h3 id="225-ventajas-de-iaas">2.2.5. Ventajas de IaaS</h3>
+<ul>
+<li><strong>Control:</strong> permite elegir y configurar el sistema operativo y gran parte del software.</li>
+<li><strong>Flexibilidad:</strong> podemos adaptar los recursos a los requisitos de la aplicación.</li>
+<li><strong>Compatibilidad:</strong> facilita migrar aplicaciones existentes que necesitan una configuración concreta.</li>
+<li><strong>Escalabilidad:</strong> es posible aumentar o reducir recursos según las necesidades.</li>
+<li><strong>Automatización:</strong> podemos crear infraestructuras mediante scripts y herramientas de infraestructura como código.</li>
+<li><strong>Acceso a recursos especializados:</strong> determinados proyectos necesitan configuraciones de CPU, memoria, almacenamiento o red muy concretas.</li>
+</ul>
+<h3 id="226-inconvenientes-de-iaas">2.2.6. Inconvenientes de IaaS</h3>
+<ul>
+<li><strong>Mayor responsabilidad técnica:</strong> el cliente debe administrar y mantener el sistema operativo y las aplicaciones.</li>
+<li><strong>Necesidad de conocimientos:</strong> se requieren competencias de administración de sistemas, redes y seguridad.</li>
+<li><strong>Riesgo de errores de configuración:</strong> una mala configuración puede provocar interrupciones o exponer información.</li>
+<li><strong>Costes difíciles de controlar:</strong> los recursos olvidados, el almacenamiento y el tráfico pueden generar gastos inesperados.</li>
+<li><strong>Mantenimiento continuo:</strong> las actualizaciones y la monitorización no desaparecen por utilizar la nube.</li>
+</ul>
+<h3 id="227-cuando-elegir-iaas">2.2.7. ¿Cuándo elegir IaaS?</h3>
+<p>IaaS resulta especialmente apropiado cuando necesitamos un alto grado de control.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>Migrar un servidor local a la nube sin modificar demasiado su funcionamiento.</li>
+<li>Instalar una aplicación heredada que requiere un sistema operativo específico.</li>
+<li>Crear un entorno de laboratorio para practicar administración de sistemas.</li>
+<li>Configurar una base de datos que necesita parámetros especiales y que vamos a administrar nosotros.</li>
+<li>Desplegar una arquitectura con varios servidores y una red personalizada.</li>
+</ul>
+<p>Desde el punto de vista de SMR, IaaS está muy relacionado con la administración de sistemas operativos, redes, servicios, actualizaciones y seguridad.</p>
+<hr />
+<h2 id="23-paas-platform-as-a-service">2.3. PaaS: Platform as a Service</h2>
+<p><strong>PaaS significa Plataforma como Servicio.</strong> El proveedor ofrece un entorno gestionado para desarrollar, desplegar y ejecutar aplicaciones sin que el cliente tenga que administrar directamente la infraestructura subyacente.</p>
+<p>En lugar de preparar una máquina virtual, instalar un sistema operativo y configurar el entorno de ejecución, el desarrollador puede centrarse en el código de su aplicación y en los datos que utiliza.</p>
+<p>El proveedor administra la infraestructura y buena parte de la plataforma, aunque el cliente sigue siendo responsable de su aplicación y de utilizar correctamente los servicios.</p>
+<h3 id="231-que-proporciona-una-plataforma-paas">2.3.1. ¿Qué proporciona una plataforma PaaS?</h3>
+<p>Una plataforma PaaS puede incluir:</p>
+<ul>
+<li>Entornos de ejecución para diferentes lenguajes.</li>
+<li>Herramientas para desplegar aplicaciones.</li>
+<li>Integración con repositorios de código.</li>
+<li>Gestión de versiones y configuración de la aplicación.</li>
+<li>Herramientas de monitorización y registros.</li>
+<li>Opciones de escalado.</li>
+<li>Integración con bases de datos y otros servicios gestionados.</li>
+<li>Certificados HTTPS y configuración de dominios, según la plataforma.</li>
+<li>Mecanismos para gestionar variables de entorno y secretos.</li>
+</ul>
+<p>No todos los productos PaaS incluyen las mismas funciones. Es necesario revisar las características del servicio concreto.</p>
+<h3 id="232-que-es-el-runtime">2.3.2. ¿Qué es el runtime?</h3>
+<p>El <em>runtime</em> o entorno de ejecución es el conjunto de componentes que permite ejecutar una aplicación.</p>
+<p>Por ejemplo, una aplicación desarrollada con Node.js necesita un runtime capaz de interpretar y ejecutar JavaScript en el entorno del servidor.</p>
+<p>Otros ejemplos son:</p>
+<ul>
+<li>PHP para ejecutar aplicaciones desarrolladas con PHP.</li>
+<li>Java y una máquina virtual Java para ejecutar aplicaciones Java.</li>
+<li>.NET para aplicaciones que utilizan este ecosistema.</li>
+<li>Python para aplicaciones desarrolladas con este lenguaje.</li>
+</ul>
+<p>En una solución IaaS, normalmente debemos instalar y mantener el runtime en nuestra máquina virtual. En una plataforma PaaS, el proveedor puede encargarse de proporcionar y mantener ese entorno de ejecución.</p>
+<p>Esto reduce el trabajo de administración, pero también puede limitar las versiones disponibles, las opciones de configuración y el acceso a determinados componentes del sistema.</p>
+<h3 id="233-como-funciona-un-despliegue-paas">2.3.3. ¿Cómo funciona un despliegue PaaS?</h3>
+<p>Imaginemos que un equipo desarrolla una API REST con Node.js y quiere publicarla en Internet.</p>
+<p>El flujo de trabajo puede ser el siguiente:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Desarrollador
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>     |
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>     v
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>Código de la aplicación
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>     |
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>     v
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>Repositorio Git
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>     |
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>     v
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>Plataforma PaaS
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>     |
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>     +--&gt; Preparación del entorno
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>     |
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>     +--&gt; Instalación de dependencias
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>     |
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>     +--&gt; Ejecución de la aplicación
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>     |
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>     v
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>Aplicación accesible por HTTPS
+</span></code></pre></div>
+<p>Según la plataforma, el despliegue puede realizarse conectando un repositorio, subiendo un paquete o utilizando herramientas de línea de comandos.</p>
+<p>La plataforma prepara el entorno y ejecuta la aplicación. El desarrollador sigue teniendo que mantener el código, resolver errores y proteger los datos y las credenciales que utiliza.</p>
+<h3 id="234-ejemplos-de-servicios-paas">2.3.4. Ejemplos de servicios PaaS</h3>
+<p>Algunos ejemplos que podemos estudiar son:</p>
+<ul>
+<li><a href="https://azure.microsoft.com/products/app-service/">Azure App Service</a>: permite alojar aplicaciones web y API en una plataforma gestionada.</li>
+<li><a href="https://cloud.google.com/appengine">Google App Engine</a>: ofrece un entorno gestionado para ejecutar aplicaciones.</li>
+<li><a href="https://www.heroku.com/">Heroku</a>: facilita el despliegue y la administración de aplicaciones.</li>
+<li>AWS ofrece distintas opciones de plataformas gestionadas, cuya clasificación depende de las características concretas del servicio.</li>
+</ul>
+<p>Una consideración importante: no todo servicio que simplifica un despliegue es necesariamente PaaS en todos sus aspectos. Hay servicios híbridos y productos que combinan características de varios modelos.</p>
+<h3 id="235-ventajas-de-paas">2.3.5. Ventajas de PaaS</h3>
+<ul>
+<li><strong>Rapidez de desarrollo:</strong> permite centrarse en programar en lugar de preparar servidores.</li>
+<li><strong>Menor carga administrativa:</strong> reduce las tareas de mantenimiento de la infraestructura.</li>
+<li><strong>Despliegues más sencillos:</strong> facilita publicar nuevas versiones de una aplicación.</li>
+<li><strong>Escalabilidad:</strong> determinadas plataformas pueden ajustar recursos automáticamente.</li>
+<li><strong>Integración:</strong> puede simplificar el uso de bases de datos, registros y otros servicios.</li>
+<li><strong>Colaboración:</strong> facilita que varios desarrolladores trabajen sobre una aplicación y su proceso de despliegue.</li>
+</ul>
+<h3 id="236-inconvenientes-de-paas">2.3.6. Inconvenientes de PaaS</h3>
+<ul>
+<li><strong>Menor control:</strong> el cliente no puede modificar libremente todas las capas de la plataforma.</li>
+<li><strong>Limitaciones técnicas:</strong> puede haber restricciones en los lenguajes, versiones, dependencias o configuraciones admitidas.</li>
+<li><strong>Dependencia del proveedor:</strong> una aplicación puede utilizar funciones específicas de la plataforma y resultar difícil trasladarla.</li>
+<li><strong>Costes variables:</strong> el escalado, el tráfico y los servicios asociados pueden aumentar la factura.</li>
+<li><strong>Restricciones de ejecución:</strong> algunas plataformas limitan la duración de los procesos, el acceso al sistema de archivos o determinados tipos de tareas.</li>
+<li><strong>Responsabilidad sobre la aplicación:</strong> los errores del código y muchas decisiones de seguridad siguen siendo responsabilidad del desarrollador.</li>
+</ul>
+<h3 id="237-cuando-elegir-paas">2.3.7. ¿Cuándo elegir PaaS?</h3>
+<p>PaaS suele ser una buena opción cuando una organización quiere desarrollar y desplegar aplicaciones sin dedicar demasiados recursos a administrar servidores.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>Publicar una API REST.</li>
+<li>Desplegar una aplicación web empresarial.</li>
+<li>Crear un backend para una aplicación móvil.</li>
+<li>Desarrollar un prototipo que debe estar disponible rápidamente.</li>
+<li>Ejecutar una aplicación que necesita una base de datos gestionada.</li>
+</ul>
+<p>Para DAM, este modelo es especialmente interesante porque conecta directamente el desarrollo de aplicaciones con el despliegue y la operación de servicios en la nube.</p>
+<h3 id="238-github-pages-es-paas">2.3.8. ¿GitHub Pages es PaaS?</h3>
+<p>GitHub Pages permite publicar sitios web estáticos a partir de archivos HTML, CSS y JavaScript. Es un ejemplo útil para aprender a publicar una web sin administrar un servidor.</p>
+<p>Sin embargo, no debe confundirse con una plataforma que ejecute cualquier backend. GitHub Pages no ejecuta directamente una API propia de Node.js, un servidor PHP o una aplicación Java del lado del servidor.</p>
+<p>Es importante distinguir entre publicar archivos estáticos y ejecutar una aplicación que necesita procesamiento en el servidor.</p>
+<hr />
+<h2 id="24-saas-software-as-a-service">2.4. SaaS: Software as a Service</h2>
+<p><strong>SaaS significa Software como Servicio.</strong> El proveedor ofrece una aplicación terminada que el cliente puede utilizar a través de Internet, normalmente mediante un navegador o una aplicación cliente.</p>
+<p>En este modelo, la organización no necesita instalar y mantener por su cuenta toda la infraestructura necesaria para ejecutar el software.</p>
+<p>Ejemplos cotidianos son el correo electrónico web, las herramientas colaborativas, los sistemas de gestión empresarial y las plataformas de relación con clientes.</p>
+<h3 id="241-que-administra-el-proveedor">2.4.1. ¿Qué administra el proveedor?</h3>
+<p>El proveedor suele encargarse de:</p>
+<ul>
+<li>Mantener la infraestructura física y virtual.</li>
+<li>Administrar el sistema operativo y la plataforma.</li>
+<li>Mantener y actualizar la aplicación.</li>
+<li>Corregir errores del producto.</li>
+<li>Desplegar nuevas versiones.</li>
+<li>Mantener los componentes internos necesarios para ofrecer el servicio.</li>
+</ul>
+<p>La distribución concreta de responsabilidades depende de las condiciones del servicio.</p>
+<h3 id="242-que-administra-el-cliente">2.4.2. ¿Qué administra el cliente?</h3>
+<p>Aunque el software esté gestionado por el proveedor, la organización usuaria conserva responsabilidades importantes:</p>
+<ul>
+<li>Crear y desactivar cuentas de usuario.</li>
+<li>Asignar roles y permisos.</li>
+<li>Configurar opciones de seguridad.</li>
+<li>Proteger las credenciales de acceso.</li>
+<li>Gestionar la información que almacena y comparte.</li>
+<li>Determinar quién puede acceder a los documentos.</li>
+<li>Cumplir las obligaciones legales que le correspondan.</li>
+<li>Revisar las condiciones de conservación y exportación de datos.</li>
+<li>Administrar licencias y suscripciones.</li>
+</ul>
+<p>Por ejemplo, una empresa puede utilizar una aplicación SaaS perfectamente mantenida por su proveedor y, aun así, exponer información confidencial si configura incorrectamente los permisos de sus documentos.</p>
+<h3 id="243-ejemplos-de-saas">2.4.3. Ejemplos de SaaS</h3>
+<table>
+<thead>
+<tr>
+<th>Servicio</th>
+<th>Uso principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gmail</td>
+<td>Correo electrónico</td>
+</tr>
+<tr>
+<td>Google Workspace</td>
+<td>Correo, documentos y colaboración</td>
+</tr>
+<tr>
+<td>Microsoft 365</td>
+<td>Productividad y colaboración</td>
+</tr>
+<tr>
+<td>Salesforce</td>
+<td>Gestión de clientes</td>
+</tr>
+<tr>
+<td>Trello</td>
+<td>Organización de tareas y proyectos</td>
+</tr>
+<tr>
+<td>Canva</td>
+<td>Diseño y creación de contenido</td>
+</tr>
+</tbody>
+</table>
+<p>La lista es ilustrativa. Las funcionalidades y los modelos comerciales pueden cambiar con el tiempo.</p>
+<h3 id="244-ventajas-de-saas">2.4.4. Ventajas de SaaS</h3>
+<ul>
+<li><strong>Puesta en marcha rápida:</strong> normalmente basta con crear una cuenta y configurar el servicio.</li>
+<li><strong>Menos mantenimiento técnico:</strong> el proveedor administra la aplicación y su infraestructura.</li>
+<li><strong>Acceso desde diferentes dispositivos:</strong> muchos servicios funcionan mediante navegador.</li>
+<li><strong>Actualizaciones centralizadas:</strong> el proveedor mantiene el producto.</li>
+<li><strong>Colaboración:</strong> permite compartir información y trabajar simultáneamente.</li>
+<li><strong>Costes iniciales reducidos:</strong> no es necesario adquirir y mantener una infraestructura propia para utilizar el software.</li>
+</ul>
+<h3 id="245-inconvenientes-de-saas">2.4.5. Inconvenientes de SaaS</h3>
+<ul>
+<li><strong>Menor control técnico:</strong> el cliente no puede modificar libremente el funcionamiento interno de la aplicación.</li>
+<li><strong>Dependencia del proveedor:</strong> un cambio de condiciones o la interrupción del servicio puede afectar al negocio.</li>
+<li><strong>Privacidad y protección de datos:</strong> es necesario conocer dónde y cómo se procesan los datos y qué obligaciones corresponden a cada parte.</li>
+<li><strong>Limitaciones de personalización:</strong> solo se pueden configurar las opciones disponibles.</li>
+<li><strong>Costes recurrentes:</strong> las suscripciones pueden aumentar al crecer el número de usuarios o las necesidades.</li>
+<li><strong>Migración:</strong> exportar los datos y trasladar los procesos a otro proveedor puede resultar complicado.</li>
+<li><strong>Dependencia de la conectividad:</strong> muchos servicios necesitan una conexión a Internet para funcionar con normalidad.</li>
+</ul>
+<h3 id="246-cuando-elegir-saas">2.4.6. ¿Cuándo elegir SaaS?</h3>
+<p>SaaS es adecuado cuando una organización necesita una aplicación existente y no desea desarrollar ni mantener su propia solución.</p>
+<p>Ejemplos:</p>
+<ul>
+<li>Correo electrónico corporativo.</li>
+<li>Videoconferencias y colaboración.</li>
+<li>Gestión de tareas.</li>
+<li>CRM para administrar clientes.</li>
+<li>Herramientas de contabilidad.</li>
+<li>Plataformas de gestión documental.</li>
+</ul>
+<p>No tiene sentido desarrollar y mantener un sistema de correo propio si una solución SaaS cubre las necesidades de la organización a un coste y con unas condiciones aceptables.</p>
+<p>Sin embargo, la decisión debe considerar también la privacidad, los requisitos legales, la continuidad del servicio y la posibilidad de recuperar los datos si se cambia de proveedor.</p>
+<hr />
+<h2 id="25-modelo-de-responsabilidad-compartida">2.5. Modelo de responsabilidad compartida</h2>
+<p>Uno de los conceptos más importantes de la computación en la nube es el <strong>modelo de responsabilidad compartida</strong>.</p>
+<p>Utilizar un servicio cloud no significa que el proveedor sea responsable de todos los aspectos de seguridad. Las responsabilidades se distribuyen entre el proveedor y el cliente según el servicio contratado.</p>
+<p>El proveedor protege la infraestructura y los componentes que administra. El cliente debe proteger los recursos, las aplicaciones, los datos y los accesos que se encuentran bajo su responsabilidad.</p>
+<h3 id="251-comparacion-entre-iaas-paas-y-saas">2.5.1. Comparación entre IaaS, PaaS y SaaS</h3>
+<p>El siguiente esquema es una simplificación didáctica de los modelos clásicos. El reparto exacto depende de las condiciones y funcionalidades del servicio concreto.</p>
+<table>
+<thead>
+<tr>
+<th>Componente o tarea</th>
+<th>IaaS</th>
+<th>PaaS</th>
+<th>SaaS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Centro de datos y hardware</td>
+<td>Proveedor</td>
+<td>Proveedor</td>
+<td>Proveedor</td>
+</tr>
+<tr>
+<td>Infraestructura de red física</td>
+<td>Proveedor</td>
+<td>Proveedor</td>
+<td>Proveedor</td>
+</tr>
+<tr>
+<td>Virtualización</td>
+<td>Proveedor</td>
+<td>Proveedor</td>
+<td>Proveedor</td>
+</tr>
+<tr>
+<td>Sistema operativo subyacente</td>
+<td>Cliente</td>
+<td>Proveedor</td>
+<td>Proveedor</td>
+</tr>
+<tr>
+<td>Runtime y plataforma subyacente</td>
+<td>Cliente</td>
+<td>Proveedor</td>
+<td>Proveedor</td>
+</tr>
+<tr>
+<td>Aplicación</td>
+<td>Cliente</td>
+<td>Cliente</td>
+<td>Proveedor</td>
+</tr>
+<tr>
+<td>Configuración de usuarios y permisos</td>
+<td>Cliente</td>
+<td>Cliente</td>
+<td>Cliente</td>
+</tr>
+<tr>
+<td>Uso autorizado y gestión de datos</td>
+<td>Cliente</td>
+<td>Cliente</td>
+<td>Cliente</td>
+</tr>
+</tbody>
+</table>
+<p>En SaaS, el proveedor mantiene la aplicación, pero el cliente debe configurar los usuarios, los permisos y las opciones de seguridad que le correspondan. La tabla no implica que todos los productos SaaS permitan acceder a las mismas opciones.</p>
+<h3 id="252-ejemplos-de-incidentes">2.5.2. Ejemplos de incidentes</h3>
+<p><strong>Caso 1: una máquina virtual sin actualizar</strong></p>
+<p>Una empresa utiliza una máquina virtual Linux y no instala actualizaciones de seguridad durante meses.</p>
+<p>La responsabilidad de mantener el sistema operativo invitado corresponde normalmente al cliente. Que la máquina esté alojada en AWS no significa que el sistema operativo se actualice automáticamente.</p>
+<p><strong>Caso 2: una aplicación PaaS con una vulnerabilidad</strong></p>
+<p>Una empresa despliega una aplicación web en una plataforma gestionada, pero el código contiene un error que permite acceder a información de otros usuarios.</p>
+<p>Aunque el proveedor mantenga la infraestructura, la empresa sigue siendo responsable de corregir los errores de su aplicación y de proteger adecuadamente los datos.</p>
+<p><strong>Caso 3: documentos compartidos públicamente en un SaaS</strong></p>
+<p>Una organización utiliza una suite de productividad y configura un documento confidencial para que cualquier persona con el enlace pueda acceder.</p>
+<p>El proveedor mantiene la plataforma, pero la configuración de los permisos y el uso de la información son responsabilidades que la organización debe gestionar.</p>
+<h3 id="253-la-seguridad-no-desaparece-al-subir-a-la-nube">2.5.3. La seguridad no desaparece al subir a la nube</h3>
+<p>En cualquier modelo debemos considerar, entre otras, las siguientes medidas:</p>
+<ul>
+<li>Utilizar contraseñas robustas y autenticación multifactor.</li>
+<li>Aplicar el principio de mínimo privilegio.</li>
+<li>Mantener actualizados los componentes que administramos.</li>
+<li>Proteger las claves y los secretos.</li>
+<li>Cifrar la información cuando corresponda.</li>
+<li>Revisar los registros de actividad.</li>
+<li>Establecer políticas de copias de seguridad y recuperación.</li>
+<li>Comprobar periódicamente los permisos y accesos.</li>
+<li>Planificar la recuperación ante incidentes.</li>
+</ul>
+<p>La diferencia entre los modelos no es que uno sea seguro y otro inseguro. La diferencia está en qué componentes podemos controlar y qué tareas debemos realizar nosotros.</p>
+<hr />
+<h2 id="26-como-elegir-entre-iaas-paas-y-saas">2.6. ¿Cómo elegir entre IaaS, PaaS y SaaS?</h2>
+<p>No existe un modelo que sea siempre mejor que los demás. La elección depende de las necesidades técnicas, económicas y organizativas.</p>
+<h3 id="261-criterios-de-decision">2.6.1. Criterios de decisión</h3>
+<p><strong>1. Nivel de control</strong></p>
+<p>Si necesitamos modificar el sistema operativo, instalar software especial o configurar servicios de forma muy específica, IaaS puede ser la opción más apropiada.</p>
+<p>Si no necesitamos controlar esas capas, PaaS o SaaS pueden reducir el trabajo de administración.</p>
+<p><strong>2. Velocidad de desarrollo</strong></p>
+<p>Cuando el objetivo es publicar una aplicación rápidamente, PaaS puede simplificar el despliegue.</p>
+<p>Si ya existe una aplicación comercial que cubre todas las necesidades, SaaS puede evitar el desarrollo desde cero.</p>
+<p><strong>3. Personal disponible</strong></p>
+<p>Una organización con personal especializado en sistemas puede asumir la administración de una infraestructura IaaS.</p>
+<p>Si el equipo es pequeño y se centra en desarrollar software, PaaS puede reducir la carga operativa.</p>
+<p><strong>4. Requisitos de seguridad y cumplimiento normativo</strong></p>
+<p>La organización debe conocer qué datos procesa, qué obligaciones tiene y qué controles necesita.</p>
+<p>No debemos asumir que IaaS garantiza por sí solo un mayor cumplimiento normativo, ni que SaaS impide cumplirlo. Hay que evaluar el servicio, su configuración, sus garantías contractuales y las obligaciones aplicables.</p>
+<p><strong>5. Costes</strong></p>
+<p>No debemos comparar únicamente el precio mensual del servicio.</p>
+<p>En IaaS también hay que considerar el tiempo de administración, las actualizaciones, las copias de seguridad y la monitorización. En PaaS y SaaS hay que considerar las suscripciones, los límites, el consumo y los costes asociados a la evolución del proyecto.</p>
+<p><strong>6. Escalabilidad</strong></p>
+<p>PaaS suele facilitar el escalado de las aplicaciones porque muchas tareas están integradas en la plataforma.</p>
+<p>IaaS también puede escalar, aunque puede requerir más configuración. SaaS permite utilizar una aplicación gestionada, pero las posibilidades de escalado dependen del proveedor y del plan contratado.</p>
+<p><strong>7. Dependencia del proveedor</strong></p>
+<p>Una solución que utiliza funciones muy específicas de un proveedor puede ser más difícil de trasladar.</p>
+<p>Este riesgo puede aparecer en los tres modelos, aunque sus consecuencias y el esfuerzo de migración serán diferentes.</p>
+<h3 id="262-tabla-comparativa">2.6.2. Tabla comparativa</h3>
+<table>
+<thead>
+<tr>
+<th>Criterio</th>
+<th>IaaS</th>
+<th>PaaS</th>
+<th>SaaS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Control técnico</td>
+<td>Alto</td>
+<td>Intermedio</td>
+<td>Limitado a la configuración disponible</td>
+</tr>
+<tr>
+<td>Administración de servidores</td>
+<td>Elevada</td>
+<td>Reducida</td>
+<td>Normalmente no corresponde al cliente</td>
+</tr>
+<tr>
+<td>Personalización</td>
+<td>Alta</td>
+<td>Depende de la plataforma</td>
+<td>Depende de la aplicación</td>
+</tr>
+<tr>
+<td>Rapidez de puesta en marcha</td>
+<td>Variable</td>
+<td>Generalmente alta</td>
+<td>Generalmente muy alta</td>
+</tr>
+<tr>
+<td>Conocimientos de sistemas</td>
+<td>Elevados</td>
+<td>Moderados</td>
+<td>Menores, aunque hay que administrar el servicio</td>
+</tr>
+<tr>
+<td>Desarrollo de aplicaciones propias</td>
+<td>Sí</td>
+<td>Sí, es uno de sus usos principales</td>
+<td>No suele ser necesario</td>
+</tr>
+<tr>
+<td>Administración del código propio</td>
+<td>Cliente</td>
+<td>Cliente</td>
+<td>El proveedor mantiene el producto</td>
+</tr>
+<tr>
+<td>Ejemplo</td>
+<td>Amazon EC2</td>
+<td>Azure App Service</td>
 <td>Gmail</td>
 </tr>
 </tbody>
 </table>
-<div class="admonition bug">
-<p class="admonition-title">Debate</p>
-<p>¿Qué riesgos tiene depender únicamente de SaaS en una empresa?
-¿Creéis que a largo plazo es más barato pagar PaaS o mantener servidores IaaS optimizados?</p>
-</div>
-<div class="admonition warnig">
-<p class="admonition-title">Actividad</p>
-<p>Debéis investigar un servicio en la nube para cada versión del Cloud Computing y clasificarlo en IaaS, PaaS o SaaS, justificando su decisión y explicando cada uno cómo funciona</p>
-</div>
+<p>Esta comparación es orientativa. Los servicios reales pueden incorporar funciones que no encajan exactamente en una sola categoría.</p>
+<h3 id="263-el-coste-total-de-propiedad">2.6.3. El coste total de propiedad</h3>
+<p>El coste de un servicio cloud no es únicamente lo que aparece en la factura del proveedor.</p>
+<p>El <strong>coste total de propiedad</strong>, o TCO (<em>Total Cost of Ownership</em>), considera los gastos necesarios para utilizar y mantener una solución durante un periodo determinado.</p>
+<p>Podemos incluir:</p>
+<ul>
+<li>Coste de computación, almacenamiento y red.</li>
+<li>Licencias y suscripciones.</li>
+<li>Tiempo de administración y mantenimiento.</li>
+<li>Desarrollo y adaptación de aplicaciones.</li>
+<li>Copias de seguridad y recuperación.</li>
+<li>Monitorización y seguridad.</li>
+<li>Formación del personal.</li>
+<li>Migración y posibles costes de salida.</li>
+</ul>
+<p>Por ejemplo, IaaS puede tener un precio de infraestructura atractivo, pero exigir muchas horas de administración. PaaS puede reducir esas horas, aunque cobrar más por determinadas capacidades gestionadas. SaaS puede evitar el desarrollo de una aplicación, pero su suscripción puede aumentar a medida que crece la organización.</p>
+<p><strong>No existe una regla universal según la cual IaaS, PaaS o SaaS sea siempre más barato.</strong> Hay que comparar soluciones que satisfagan las mismas necesidades y considerar todos sus costes relevantes.</p>
+<hr />
+<h2 id="27-tecnologias-relacionadas-contenedores-y-serverless">2.7. Tecnologías relacionadas: contenedores y serverless</h2>
+<p>Además de los tres modelos clásicos, existen tecnologías que han cambiado la manera de empaquetar, desplegar y ejecutar aplicaciones.</p>
+<p>Es importante comprender que <strong>contenedores y serverless no son modelos equivalentes a IaaS, PaaS y SaaS</strong>. Son tecnologías o formas de ofrecer y ejecutar servicios que pueden utilizarse dentro de diferentes arquitecturas cloud.</p>
+<h3 id="271-contenedores">2.7.1. Contenedores</h3>
+<p>Un contenedor permite ejecutar una aplicación con sus dependencias dentro de un entorno aislado.</p>
+<p>Por ejemplo, una aplicación Node.js puede necesitar una versión concreta del runtime y varias bibliotecas. En lugar de instalar todo manualmente en cada máquina, podemos definir una imagen que incluya los componentes necesarios para ejecutar la aplicación.</p>
+<p>Docker es una de las tecnologías más conocidas para crear y ejecutar contenedores.</p>
+<h4 id="conceptos-fundamentales">Conceptos fundamentales</h4>
+<ul>
+<li><strong>Imagen:</strong> plantilla que contiene los archivos y componentes necesarios para crear un contenedor.</li>
+<li><strong>Contenedor:</strong> instancia en ejecución de una imagen.</li>
+<li><strong>Registro de imágenes:</strong> servicio que almacena imágenes para su distribución.</li>
+<li><strong>Dockerfile:</strong> archivo de instrucciones utilizado para construir una imagen.</li>
+<li><strong>Volumen:</strong> mecanismo para mantener datos fuera del ciclo de vida del contenedor.</li>
+<li><strong>Red de contenedores:</strong> mecanismo para permitir la comunicación entre contenedores.</li>
+</ul>
+<h4 id="ejemplo-de-uso">Ejemplo de uso</h4>
+<p>Un desarrollador puede preparar una aplicación y empaquetarla en una imagen Docker. Esa imagen puede ejecutarse en su ordenador, en una máquina virtual o en un servicio gestionado de contenedores.</p>
+<p>Esto facilita reproducir entornos, pero no elimina todas las tareas de administración.</p>
+<p>Si ejecutamos Docker en una máquina virtual propia, seguimos siendo responsables de administrar el sistema operativo, Docker, las actualizaciones y la seguridad de la infraestructura.</p>
+<p>En cambio, si utilizamos una plataforma gestionada que se ocupa del plano de control y de la infraestructura de ejecución, parte de esas responsabilidades puede recaer en el proveedor.</p>
+<h4 id="relacion-con-iaas-y-paas">Relación con IaaS y PaaS</h4>
+<p>Podemos encontrar diferentes escenarios:</p>
+<ul>
+<li>Instalar Docker en una máquina virtual propia: la infraestructura suele encajar en IaaS.</li>
+<li>Utilizar una plataforma que construye y ejecuta contenedores sin que administramos los servidores subyacentes: puede encajar en PaaS.</li>
+<li>Utilizar una aplicación SaaS que internamente se ejecuta en contenedores: el usuario final no necesita administrar esos contenedores.</li>
+</ul>
+<p>La tecnología utilizada internamente no determina por sí sola el modelo de servicio que recibe el cliente.</p>
+<h3 id="272-serverless">2.7.2. Serverless</h3>
+<p>Serverless es un enfoque que permite ejecutar código o utilizar servicios sin tener que administrar directamente los servidores subyacentes.</p>
+<p>El término puede resultar engañoso: <strong>los servidores siguen existiendo; lo que cambia es quién se ocupa de su administración y cuánto control necesita el usuario sobre ellos</strong>.</p>
+<p>Una modalidad conocida es FaaS (<em>Function as a Service</em>), que permite ejecutar funciones en respuesta a eventos.</p>
+<p>Ejemplos de eventos:</p>
+<ul>
+<li>Recibir una petición HTTP.</li>
+<li>Subir un archivo a un almacenamiento.</li>
+<li>Recibir un mensaje en una cola.</li>
+<li>Procesar un evento generado por otra aplicación.</li>
+<li>Ejecutar una tarea programada.</li>
+</ul>
+<h4 id="ejemplo-procesar-una-imagen">Ejemplo: procesar una imagen</h4>
+<p>Imaginemos una aplicación que permite subir fotografías. Cuando se carga una imagen, queremos generar automáticamente una versión reducida.</p>
+<p>Podríamos construir una arquitectura de este tipo:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Usuario sube una imagen
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>          |
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>          v
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>Almacenamiento cloud
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>          |
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>          v
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>Se genera un evento
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>          |
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>          v
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>Función serverless
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>          |
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>          v
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>Se crea una miniatura
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>          |
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>          v
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>Se guarda el resultado
+</span></code></pre></div>
+<p>La función se ejecuta cuando se produce el evento, sin que tengamos que mantener un servidor dedicado exclusivamente a esa tarea.</p>
+<h4 id="ejemplo-real-aws-lambda">Ejemplo real: AWS Lambda</h4>
+<p><a href="https://aws.amazon.com/lambda/">AWS Lambda</a> permite ejecutar código en respuesta a eventos y peticiones compatibles.</p>
+<p>El desarrollador sigue teniendo que escribir y mantener el código, gestionar los permisos y proteger los datos. El proveedor se ocupa de la infraestructura de ejecución según las condiciones del servicio.</p>
+<h4 id="ventajas-de-serverless">Ventajas de serverless</h4>
+<ul>
+<li>Reduce la necesidad de administrar servidores.</li>
+<li>Puede ajustarse a cargas de trabajo variables.</li>
+<li>Facilita construir aplicaciones orientadas a eventos.</li>
+<li>Permite pagar según el uso en determinados modelos de facturación.</li>
+<li>Se integra con otros servicios cloud.</li>
+</ul>
+<h4 id="inconvenientes-de-serverless">Inconvenientes de serverless</h4>
+<ul>
+<li>Puede haber límites de duración, memoria y configuración.</li>
+<li>El comportamiento y los costes dependen de la carga de trabajo.</li>
+<li>La depuración puede resultar más compleja en sistemas distribuidos.</li>
+<li>La arquitectura puede depender de servicios específicos del proveedor.</li>
+<li>No todos los procesos son adecuados para una ejecución por eventos.</li>
+</ul>
+<p>Serverless es especialmente útil para tareas puntuales, procesamiento de eventos y determinados componentes de aplicaciones. No sustituye automáticamente a todos los servidores o aplicaciones tradicionales.</p>
+<hr />
+<h2 id="28-casos-practicos">2.8. Casos prácticos</h2>
+<p>En esta sección vamos a aplicar los conceptos anteriores a situaciones reales.</p>
+<h3 id="caso-1-una-empresa-necesita-migrar-un-servidor-antiguo">Caso 1. Una empresa necesita migrar un servidor antiguo</h3>
+<p>Una empresa dispone de una aplicación que funciona en Linux y necesita una configuración concreta del sistema operativo. No quiere modificar la aplicación y dispone de personal de administración de sistemas.</p>
+<p><strong>Modelo recomendado: IaaS.</strong></p>
+<p>Una máquina virtual permite mantener un entorno similar al existente y conservar un control elevado sobre el sistema operativo y los servicios.</p>
+<p>La empresa tendrá que asumir el mantenimiento del sistema operativo, las actualizaciones, la configuración de seguridad y la monitorización.</p>
+<h3 id="caso-2-un-equipo-quiere-publicar-una-api-rest">Caso 2. Un equipo quiere publicar una API REST</h3>
+<p>Un equipo de desarrollo ha creado una API con Node.js. Quiere publicarla rápidamente y no desea dedicar tiempo a mantener servidores.</p>
+<p><strong>Modelo recomendado: PaaS.</strong></p>
+<p>Una plataforma gestionada puede proporcionar el runtime, facilitar los despliegues y reducir la carga de administración.</p>
+<p>El equipo sigue siendo responsable del código, las dependencias, los datos, los permisos y la configuración de su aplicación.</p>
+<h3 id="caso-3-un-centro-necesita-correo-electronico-corporativo">Caso 3. Un centro necesita correo electrónico corporativo</h3>
+<p>Un centro educativo necesita cuentas de correo, calendario y herramientas de colaboración. No quiere instalar y mantener servidores propios para prestar estos servicios.</p>
+<p><strong>Modelo recomendado: SaaS.</strong></p>
+<p>Una suite de productividad puede cubrir esas necesidades con una aplicación ya desarrollada.</p>
+<p>El centro debe administrar las cuentas, los permisos, la seguridad de acceso y el uso de los datos de acuerdo con sus obligaciones.</p>
+<h3 id="caso-4-una-empresa-necesita-procesar-archivos-automaticamente">Caso 4. Una empresa necesita procesar archivos automáticamente</h3>
+<p>Una aplicación recibe archivos y debe generar un informe cada vez que se sube uno nuevo.</p>
+<p>Una arquitectura basada en eventos y funciones serverless puede ser una buena alternativa, si el volumen de trabajo, los requisitos y las limitaciones del servicio lo permiten.</p>
+<p>En este caso estamos eligiendo una forma de ejecutar una parte de la aplicación, no sustituyendo necesariamente toda la arquitectura por un único modelo de servicio.</p>
+<hr />
+<h2 id="29-actividades">2.9. Actividades</h2>
+<h3 id="actividad-1-clasificacion-de-servicios">Actividad 1. Clasificación de servicios</h3>
+<p>Investiga los siguientes servicios y clasifícalos según el modelo de servicio que mejor describa la experiencia que recibe el cliente:</p>
+<ul>
+<li>Amazon EC2.</li>
+<li>Azure App Service.</li>
+<li>Gmail.</li>
+<li>Google App Engine.</li>
+<li>Microsoft 365.</li>
+<li>AWS Lambda.</li>
+<li>GitHub Pages.</li>
+<li>Salesforce.</li>
+</ul>
+<p>Para cada servicio, responde:</p>
+<ol>
+<li>¿Qué ofrece?</li>
+<li>¿Qué necesita administrar el cliente?</li>
+<li>¿Qué tareas realiza el proveedor?</li>
+<li>¿Qué conocimientos técnicos son necesarios para utilizarlo?</li>
+<li>¿Qué ventajas e inconvenientes presenta?</li>
+<li>¿Por qué lo clasificarías en ese modelo?</li>
+</ol>
+<p><strong>Importante:</strong> algunos servicios, como AWS Lambda o GitHub Pages, requieren una explicación más precisa que una clasificación simple. Justifica el modelo atendiendo a lo que administra el cliente y a lo que proporciona el servicio.</p>
+<h3 id="actividad-2-responsabilidades-y-seguridad">Actividad 2. Responsabilidades y seguridad</h3>
+<p>Lee las siguientes situaciones e indica si la responsabilidad corresponde principalmente al cliente, al proveedor o si está compartida.</p>
+<ol>
+<li>El sistema operativo de una máquina virtual IaaS no recibe actualizaciones.</li>
+<li>El hardware físico del centro de datos falla.</li>
+<li>Una aplicación PaaS contiene una vulnerabilidad en el código.</li>
+<li>Una empresa configura incorrectamente los permisos de un documento en una aplicación SaaS.</li>
+<li>Un usuario comparte sus credenciales con otra persona.</li>
+<li>Una organización no comprueba si puede exportar sus datos antes de cancelar una suscripción.</li>
+<li>Una aplicación almacena una clave secreta directamente en el código fuente.</li>
+<li>El proveedor publica una actualización de la aplicación SaaS que mantiene.</li>
+</ol>
+<p>Para cada caso, explica la razón de tu respuesta y propone una medida preventiva cuando sea posible.</p>
+<h3 id="actividad-3-eleccion-del-modelo">Actividad 3. Elección del modelo</h3>
+<p>Una empresa ficticia necesita resolver tres necesidades:</p>
+<ul>
+<li>Alojar una aplicación antigua que requiere una versión específica de Linux.</li>
+<li>Publicar una nueva API desarrollada con Node.js.</li>
+<li>Disponer de correo electrónico y calendario para todos sus trabajadores.</li>
+</ul>
+<p>Elabora una tabla con las siguientes columnas:</p>
+<table>
+<thead>
+<tr>
+<th>Necesidad</th>
+<th>Modelo propuesto</th>
+<th>Servicio de ejemplo</th>
+<th>Responsabilidades del cliente</th>
+<th>Justificación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>No es suficiente con indicar IaaS, PaaS o SaaS. Debes justificar por qué el modelo elegido es adecuado y mencionar alguna alternativa posible.</p>
+<h3 id="actividad-4-comparacion-economica">Actividad 4. Comparación económica</h3>
+<p>Dos soluciones permiten alojar una misma aplicación.</p>
+<ul>
+<li>La solución A ofrece una máquina virtual económica, pero requiere que el equipo administre el sistema operativo, el runtime, las actualizaciones y las copias de seguridad.</li>
+<li>La solución B ofrece una plataforma gestionada con un precio de servicio superior, pero reduce parte del trabajo de administración.</li>
+</ul>
+<p>Responde:</p>
+<ol>
+<li>¿Qué solución podría tener un menor coste de infraestructura?</li>
+<li>¿Cuál podría requerir menos horas de administración?</li>
+<li>¿Qué otros costes deberíamos tener en cuenta?</li>
+<li>¿Qué información necesitaríamos para comparar ambas soluciones?</li>
+<li>¿Podemos afirmar que una es siempre más barata que la otra? Justifica tu respuesta.</li>
+</ol>
+<p>No necesitas inventar precios. El objetivo es aprender a identificar las variables que intervienen en una comparación de costes.</p>
+<h3 id="actividad-5-debate-dependencia-de-saas">Actividad 5. Debate: dependencia de SaaS</h3>
+<p>Una empresa utiliza una aplicación SaaS para almacenar todos sus documentos y gestionar sus procesos internos.</p>
+<p>Debatid las siguientes cuestiones:</p>
+<ul>
+<li>¿Qué ocurre si el proveedor deja de prestar el servicio?</li>
+<li>¿Qué riesgos aparecen si resulta difícil exportar los datos?</li>
+<li>¿Qué medidas se pueden adoptar para reducir la dependencia?</li>
+<li>¿Es razonable utilizar SaaS para todos los procesos de una empresa?</li>
+<li>¿Qué criterios deberían utilizarse para decidir qué información se almacena en cada servicio?</li>
+</ul>
+<p>Cada grupo debe presentar una conclusión argumentada.</p>
+<hr />
+<h2 id="210-practica-integradora-disenar-una-solucion-cloud">2.10. Práctica integradora: diseñar una solución cloud</h2>
+<h3 id="escenario">Escenario</h3>
+<p>Una pequeña empresa quiere modernizar su infraestructura. Actualmente utiliza un servidor local para una aplicación interna y herramientas independientes para gestionar sus documentos.</p>
+<p>La empresa desea:</p>
+<ul>
+<li>Mantener una aplicación antigua que necesita una configuración específica.</li>
+<li>Desarrollar una nueva aplicación web.</li>
+<li>Utilizar correo y documentos compartidos.</li>
+<li>Reducir las tareas de mantenimiento que no aportan valor directo al negocio.</li>
+<li>Mantener un nivel adecuado de seguridad y controlar los costes.</li>
+</ul>
+<h3 id="objetivo">Objetivo</h3>
+<p>Diseñar una propuesta de servicios cloud que responda a las necesidades de la empresa, justificando la elección de cada modelo y las responsabilidades asociadas.</p>
+<h3 id="parte-a-analisis-de-necesidades">Parte A. Análisis de necesidades</h3>
+<p>Identifica las necesidades técnicas y organizativas.</p>
+<p>Para cada una, indica si requiere infraestructura configurable, una plataforma de desarrollo o una aplicación terminada.</p>
+<h3 id="parte-b-seleccion-de-servicios">Parte B. Selección de servicios</h3>
+<p>Propón una solución para cada necesidad.</p>
+<p>Puedes utilizar servicios reales de AWS u otros proveedores. No es necesario contratar servicios ni introducir datos de pago.</p>
+<h3 id="parte-c-responsabilidad-compartida">Parte C. Responsabilidad compartida</h3>
+<p>Explica quién se encarga de:</p>
+<ul>
+<li>Mantener el sistema operativo.</li>
+<li>Actualizar el entorno de ejecución.</li>
+<li>Mantener el código de la aplicación.</li>
+<li>Administrar los usuarios.</li>
+<li>Proteger los datos.</li>
+<li>Controlar los costes.</li>
+<li>Gestionar las copias de seguridad.</li>
+</ul>
+<p>Adapta las respuestas a cada servicio elegido.</p>
+<h3 id="parte-d-seguridad-y-riesgos">Parte D. Seguridad y riesgos</h3>
+<p>Identifica al menos tres riesgos y propone medidas para reducirlos.</p>
+<p>Puedes considerar el acceso no autorizado, la pérdida de datos, los errores de configuración, la dependencia del proveedor o los costes imprevistos.</p>
+<h3 id="parte-e-conclusiones">Parte E. Conclusiones</h3>
+<p>Prepara una breve memoria técnica con:</p>
+<ol>
+<li>Descripción de las necesidades.</li>
+<li>Servicios seleccionados y justificación.</li>
+<li>Tabla de responsabilidades.</li>
+<li>Riesgos y medidas preventivas.</li>
+<li>Costes que deberían investigarse antes de implantar la solución.</li>
+<li>Limitaciones de la propuesta.</li>
+</ol>
+<p>La memoria puede presentarse como documento Markdown, informe o exposición breve, según las indicaciones del profesor.</p>
+<h3 id="criterios-de-evaluacion-propuestos">Criterios de evaluación propuestos</h3>
+<table>
+<thead>
+<tr>
+<th>Criterio</th>
+<th style="text-align: right;">Ponderación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identificación correcta de las necesidades</td>
+<td style="text-align: right;">15 %</td>
+</tr>
+<tr>
+<td>Selección y justificación de los modelos</td>
+<td style="text-align: right;">25 %</td>
+</tr>
+<tr>
+<td>Comprensión de las responsabilidades</td>
+<td style="text-align: right;">20 %</td>
+</tr>
+<tr>
+<td>Análisis de seguridad y riesgos</td>
+<td style="text-align: right;">20 %</td>
+</tr>
+<tr>
+<td>Comparación de costes y limitaciones</td>
+<td style="text-align: right;">10 %</td>
+</tr>
+<tr>
+<td>Claridad y calidad de la presentación</td>
+<td style="text-align: right;">10 %</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="211-resumen-del-tema">2.11. Resumen del tema</h2>
+<p>Los modelos IaaS, PaaS y SaaS representan diferentes maneras de consumir recursos y capacidades informáticas a través de la nube.</p>
+<ul>
+<li><strong>IaaS:</strong> proporciona infraestructura virtualizada. El cliente dispone de mucho control y asume una parte importante de la administración del sistema.</li>
+<li><strong>PaaS:</strong> proporciona una plataforma gestionada para desarrollar y ejecutar aplicaciones. Reduce la administración de la infraestructura, pero el cliente sigue siendo responsable de su código y de los datos que gestiona.</li>
+<li><strong>SaaS:</strong> proporciona una aplicación terminada. El proveedor mantiene el software, mientras que el cliente administra los usuarios, los permisos, la información y el uso que hace del servicio.</li>
+</ul>
+<p>La elección depende de las necesidades de control, los conocimientos disponibles, el tiempo de desarrollo, los requisitos de seguridad, los costes y la dependencia del proveedor.</p>
+<p>El modelo de responsabilidad compartida nos recuerda que contratar un servicio cloud no elimina todas las obligaciones del cliente. Debemos comprender qué componentes administra el proveedor y qué medidas tenemos que aplicar nosotros.</p>
+<p>Por último, los contenedores y las tecnologías serverless permiten construir y desplegar aplicaciones de formas diferentes, pero no deben confundirse con los modelos clásicos de servicio.</p>
+<p><strong>La idea fundamental que debemos recordar es que no elegimos un modelo únicamente por su tecnología o por su precio: lo elegimos porque distribuye el control, el trabajo y las responsabilidades de una forma adecuada para las necesidades del proyecto.</strong></p>
+<h2 id="preguntas-de-repaso">Preguntas de repaso</h2>
+<ol>
+<li>¿Qué diferencia fundamental existe entre IaaS, PaaS y SaaS?</li>
+<li>¿Qué responsabilidades conserva el cliente al contratar una máquina virtual IaaS?</li>
+<li>¿Qué es un runtime y qué ventaja ofrece una plataforma PaaS respecto a su administración?</li>
+<li>¿Por qué utilizar SaaS no elimina la responsabilidad sobre los datos?</li>
+<li>¿En qué consiste el modelo de responsabilidad compartida?</li>
+<li>¿Qué factores deben considerarse al comparar los costes de IaaS y PaaS?</li>
+<li>¿Por qué Docker no es, por sí mismo, un modelo de servicio cloud?</li>
+<li>¿Qué significa serverless y por qué no implica que no existan servidores?</li>
+<li>¿Qué riesgos puede tener una dependencia excesiva de un proveedor SaaS?</li>
+<li>Una empresa necesita controlar el sistema operativo de una aplicación, desarrollar una API y contratar correo electrónico. ¿Qué modelos elegirías para cada necesidad y por qué?</li>
+</ol>
+<hr />
 
 
 
@@ -622,10 +2206,11 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "header.autohide", "content.code.copy", "toc.integrate", "content.tooltips"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["search.suggest", "search.highlight", "header.autohide", "content.code.copy", "toc.integrate", "content.tooltips"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
