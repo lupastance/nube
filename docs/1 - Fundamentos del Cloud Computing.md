@@ -303,8 +303,6 @@ Esta puede dar bastante juego para debatir en clase.
 
 9️⃣ El reto de los tres proveedores 🏆
 
-Divide la clase en grupos.
-
 Cada grupo recibe una empresa ficticia:
 
 > **SurfApp** es una startup que acaba de crear una aplicación para reservar clases de surf. Espera comenzar con 1.000 usuarios, pero podría llegar a 1 millón.
